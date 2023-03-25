@@ -8,7 +8,7 @@ export default function Header() {
           rel="noopener noreferrer"
           href="/"
           aria-label="Back to homepage"
-          className="flex items-center p-2"
+          className="flex items-center p-2 ctaHeader text-xl md:text-3xl"
         >
           Autokemp KOKOŘÍN
         </Link>

@@ -3,8 +3,8 @@ import Link from "next/link";
 export default function Kde() {
   return (
     <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
-      <div className="text-center">
-        <h2 className="text-2xl md:text-4xl font-extrabold pb-6">
+      <div className="text-center font-extralight">
+        <h2 className="text-3xl md:text-4xl font-black pb-6 ctaHeader">
           Kde najdete svůj klid?
         </h2>
         <p>Autokemp Kokořín, Kokořínský důk 60, 277 23, Kokořín</p>
