@@ -6,7 +6,7 @@ export default function Header() {
       <div className="container flex justify-between h-16 mx-auto">
         <Link
           rel="noopener noreferrer"
-          href="/"
+          href="/EN/"
           aria-label="Back to homepage"
           className="flex items-center p-2 ctaHeader text-xl md:text-3xl"
         >
@@ -16,7 +16,7 @@ export default function Header() {
           <li className="flex">
             <Link
               rel="noopener noreferrer"
-              href="/about"
+              href="/EN/about"
               className="flex items-center px-4 -mb-1"
             >
               ubytování
@@ -61,10 +61,10 @@ export default function Header() {
           <li className="flex">
             <Link
               rel="noopener noreferrer"
-              href="/EN/"
+              href="/"
               className="flex items-center pl-4 -mb-1"
             >
-              EN
+              CZ
             </Link>
             <span className="flex items-center -mb-1">&nbsp;/&nbsp;</span>
 

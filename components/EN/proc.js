@@ -4,7 +4,37 @@ export default function Proc() {
       <div className="grid gap-12 row-gap-5 sm:row-gap-8 sm:grid-cols-2 lg:grid-cols-3 place-content-center font-extralight">
         <div className="text-center my-4 w-72">
           <h6 className="mb-2 font-semibold leading-5 text-2xl md:text-4xl ctaHeader">
-            Klid a odpočinek
+            Ubytování
+          </h6>
+          <p className="mb-3 text-sm text-gray-900">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis
+            accusamus fuga consequatur consequuntur iusto repellat sunt maxime
+            nulla odit officia.
+          </p>
+        </div>
+        <div className="text-center my-4 w-72">
+          <h6 className="mb-2 font-semibold leading-5 text-2xl md:text-4xl ctaHeader">
+            Volný čas
+          </h6>
+          <p className="mb-3 text-sm text-gray-900">
+            10A
+            <br />
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt ut
+            maxime at consequuntur nostrum numquam!
+          </p>
+        </div>
+        <div className="text-center my-4 w-72">
+          <h6 className="mb-2 font-semibold leading-5 text-2xl md:text-4xl ctaHeader">
+            Restaurace
+          </h6>
+          <p className="mb-3 text-sm text-gray-900">
+            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+            accusantium rem aperiam.
+          </p>
+        </div>
+        <div className="text-center my-4 w-72">
+          <h6 className="mb-2 font-semibold leading-5 text-2xl md:text-4xl ctaHeader">
+            Klid a odpočinek{" "}
           </h6>
           <p className="mb-3 text-sm text-gray-900">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae,
@@ -21,23 +51,13 @@ export default function Proc() {
         </div>
         <div className="text-center my-4 w-72">
           <h6 className="mb-2 font-semibold leading-5 text-2xl md:text-4xl ctaHeader">
-            Restaurace
-          </h6>
-          <p className="mb-3 text-sm text-gray-900">
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium rem aperiam.
-          </p>
-        </div>
-
-        {/* <div className="text-center my-4 w-72">
-          <h6 className="mb-2 font-semibold leading-5 text-2xl md:text-4xl ctaHeader">
             Černočerná tma
           </h6>
           <p className="mb-3 text-sm text-gray-900">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
             mollitia praesentium quisquam maxime suscipit nobis perferendis.
           </p>
-        </div> */}
+        </div>
       </div>
     </div>
   );

@@ -1,5 +1,5 @@
 import Link from "next/link";
-import Header from "../components/header";
+import Header from "/components/EN/header";
 // import backgroundVideoM from "../public/atc2.mp4";
 // import backgroundVideo from "../public/atc2.webm";
 export default function Hero() {
@@ -14,7 +14,7 @@ export default function Hero() {
         poster="/poster.jpg"
       >
         <source
-          // src="https://res.cloudinary.com/dam7wdzvx/video/upload/ac_none,e_accelerate:-10,q_auto:eco/v1679762279/autokemp/atc4_a0zrs3.webm"
+          src="https://res.cloudinary.com/dam7wdzvx/video/upload/ac_none,e_accelerate:-10,q_auto:eco/v1679762279/autokemp/atc4_a0zrs3.webm"
           // src="https://res.cloudinary.com/dam7wdzvx/video/upload/v1679762279/autokemp/atc4_a0zrs3.webm"
           type="video/webm"
         />
@@ -24,9 +24,9 @@ export default function Hero() {
       <div className="z-1">
         <Header />
         <div className=" sm:text-center sm:pl-0 sm:pt-8 ">
-          <h2 className="tracking-tight text-white text-3xl sm:text-[88px] leading-snug fontHero">
+          <h2 className="tracking-tight text-white text-3xl sm:text-[88px] leading-snug ctaHeader">
             <span className="pl-4 mt-24 py-8 pr-16 sm:mt-0 sm:pr-0 sm:pl-0 sm:bg-opacity-0  relative inline-block drop-shadow-md bg-neutral-100 bg-opacity-30">
-              klidné místo
+              EN klidné místo
               <br />v romantickém
               <br />
               údolí <span className="text-4xl sm:text-[118px]">K</span>okořínska
