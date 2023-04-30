@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Header() {
   return (
-    <header className="p-4 h-24 md:h-48 font-semibold text-white">
+    <header className="p-4 h-24 md:h-48 text-white">
       <div className="container flex justify-between h-16 mx-auto">
         <Link
           rel="noopener noreferrer"
@@ -16,8 +16,8 @@ export default function Header() {
           <li className="flex">
             <Link
               rel="noopener noreferrer"
-              href="/about"
-              className="flex items-center px-4 -mb-1"
+              href="/ubytovani"
+              className="flex items-center px-4 -mb-1 hover:underline transition duration-300 ease-in-out underline-offset-4"
             >
               ubytování
             </Link>
@@ -25,8 +25,8 @@ export default function Header() {
           <li className="flex">
             <Link
               rel="noopener noreferrer"
-              href="/"
-              className="flex items-center px-4 -mb-1"
+              href="/restaurace"
+              className="flex items-center px-4 -mb-1 hover:underline transition duration-300 ease-in-out underline-offset-4"
             >
               restaurace
             </Link>
@@ -34,8 +34,8 @@ export default function Header() {
           <li className="flex">
             <Link
               rel="noopener noreferrer"
-              href="/"
-              className="flex items-center px-4 -mb-1"
+              href="/cenik"
+              className="flex items-center px-4 -mb-1 hover:underline transition duration-300 ease-in-out underline-offset-4"
             >
               ceník
             </Link>
@@ -43,8 +43,8 @@ export default function Header() {
           <li className="flex">
             <Link
               rel="noopener noreferrer"
-              href="/"
-              className="flex items-center px-4 -mb-1"
+              href="/volny-cas"
+              className="flex items-center px-4 -mb-1 hover:underline transition duration-300 ease-in-out underline-offset-4"
             >
               volný čas
             </Link>
@@ -52,28 +52,10 @@ export default function Header() {
           <li className="flex">
             <Link
               rel="noopener noreferrer"
-              href="/"
-              className="flex items-center px-4 -mb-1"
+              href="/kontakt"
+              className="flex items-center px-4 -mb-1 hover:underline transition duration-300 ease-in-out underline-offset-4"
             >
               kontakt
-            </Link>
-          </li>
-          <li className="flex">
-            <Link
-              rel="noopener noreferrer"
-              href="/EN/"
-              className="flex items-center pl-4 -mb-1"
-            >
-              EN
-            </Link>
-            <span className="flex items-center -mb-1">&nbsp;/&nbsp;</span>
-
-            <Link
-              rel="noopener noreferrer"
-              href="/DE/"
-              className="flex items-center  -mb-1"
-            >
-              DE
             </Link>
           </li>
         </ul>

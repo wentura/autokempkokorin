@@ -1,15 +1,20 @@
+import { text } from "@cloudinary/url-gen/qualifiers/source";
 import Link from "next/link";
-export default function Cta() {
+export default function Cta({ ...text }) {
+  console.log(text.css);
   return (
-    <section className="night-bg flex items-center justify-center px-4 py-24 text-center text-white">
+    <section
+      className={` flex ${text.css} items-center justify-center px-4 py-44 text-center text-white bg-blend-darken`}
+    >
       <div className="col-auto lg:col-start-2">
-        <h2 className="mb-6 text-3xl md:text-5xl md:mb-6 ctaHeader leading-snug">
-          zarezervujte si SVŮJ čas odpočinku
+        <h2 className="mb-6 text-3xl md:text-6xl md:mb-6 ctaHeader leading-snug">
+          {text.text}
         </h2>
-        <p className="mb-8 text-base font-extralight">
-          Ještě dnes se nalaďte na pohodu a klid, který Vás u nás čeká.
-          <br />
-          Vaše mysl si to zaslouží odpočinout od rušného města.
+        <p className="mb-8 pb-8 text-base font-extralight">{text.claim}</p>
+        <p>
+          <button className="my-8 py-4 px-8 backdrop-blur-sm ctaHeader text-xl md:text-2xl border rounded-2xl hover:backdrop-brightness-75 transition duration-100 ease-in-out">
+            zarezervovat si místo v autokempu Kokořín
+          </button>
         </p>
         {/* <Link
           href="/"

@@ -5,9 +5,16 @@ export default function Kde() {
     <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
       <div className="text-center font-extralight">
         <h2 className="text-3xl md:text-4xl font-black pb-6 ctaHeader">
-          kde najdete svůj klid?
+          kde najdete svůj klid a odpočinek?
         </h2>
-        <p>Autokemp Kokořín, Kokořínský důl 60, 277 23, Kokořín</p>
+        <p className="font-bold underline underline-offset-4">
+          <a
+            href="https://www.google.com/maps/place/ATC+Koko%C5%99%C3%ADn/@50.4368384,14.5829041,17z/data=!3m1!4b1!4m9!3m8!1s0x47095f787b1f1c89:0x1d00af105e3dc4a0!5m2!4m1!1i2!8m2!3d50.436835!4d14.585479!16s%2Fg%2F1tgcws7p"
+            target="_blank"
+          >
+            Autokemp Kokořín, Kokořínský důl 60, 277 23, Kokořín
+          </a>
+        </p>
         <div className="flex flex-wrap justify-center gap-8 py-8">
           <div className="flex-1 w-52 min-w-[250px] flex-col items-center">
             <Link href="mailto:info@atckokorin.cz" className="cursor-pointer">

@@ -2,16 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url("https://fonts.googleapis.com/css2?family=Cinzel&family=Great+Vibes&family=Source+Sans+Pro:wght@200&display=swap");
-/* font-family: 'Cinzel', serif; */
-/* font-family: 'Great Vibes', cursive; */
-/* font-family: 'Source Sans Pro', sans-serif; */
+@font-face {
+  font-family: "bahiana";
+  src: url(/public/Bahiana-Regular.woff2);
+}
+/* @import url("https://fonts.googleapis.com/css2?family=Bahiana&display=swap"); */
+/* font-family: 'Bahiana', cursive; */
 .hero-bg {
   background-color: red;
 }
-.night-bg {
-  /* background-color: darkblue; */
-  background-image: url(night.jpg);
+.cta1-bg {
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)),
+    url(cta1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.ubytovaniCta-bg {
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)),
+    url(ubytovani2.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -27,18 +36,24 @@
   z-index: -1 !important;
 }
 .fontHero {
-  font-family: "Great Vibes", cursive !important;
+  /* font-family: "Bahiana" !important; */
+  font-family: "bahiana" !important;
+  /* font-family: "Great Vibes", cursive !important; */
 }
 
 .ctaHeader {
-  font-family: "Cinzel", serif;
+  font-family: "bahiana" !important;
+  /* font-family: "Bahiana" !important; */
+  /* font-family: "Cinzel", serif; */
   /* font-weight: 800; */
   /* font-style: italic; */
 }
-
 .pageHero {
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
     url("../public/poster.jpg");
   background-position: center;
   background-size: cover;
+}
+body {
+  font-family: Helvetica, "Trebuchet MS", Verdana, sans-serif;
 }
