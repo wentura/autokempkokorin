@@ -4,7 +4,7 @@ import Header from "../components/header";
 // import backgroundVideo from "../public/atc2.webm";
 export default function Hero() {
   return (
-    <div className=" min-h-screen md:min-h-[800px] max-h-screen md:max-h-[800px] overflow-hidden bg-black bg-opacity-30">
+    <div className="min-h-screen md:min-h-[800px] max-h-screen md:max-h-[800px] overflow-hidden bg-black bg-opacity-30">
       <video
         id="background-video"
         autoPlay
