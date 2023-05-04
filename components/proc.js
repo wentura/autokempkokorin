@@ -6,27 +6,19 @@ export default function Proc() {
           <h6 className="mb-2 font-semibold leading-5 text-2xl md:text-4xl ctaHeader">
             Klid a odpočinek
           </h6>
-          <p className="mb-3 text-sm text-gray-900">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae,
-            odio.
-          </p>
+          <p className="mb-3 text-sm text-gray-900"></p>
         </div>
         <div className="text-center my-4 w-72">
           <h6 className="mb-2 font-semibold leading-5 text-2xl md:text-4xl ctaHeader">
             Vhodné pro děti
           </h6>
-          <p className="mb-3 text-sm text-gray-900">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          </p>
+          <p className="mb-3 text-sm text-gray-900"></p>
         </div>
         <div className="text-center my-4 w-72">
           <h6 className="mb-2 font-semibold leading-5 text-2xl md:text-4xl ctaHeader">
             Restaurace
           </h6>
-          <p className="mb-3 text-sm text-gray-900">
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium rem aperiam.
-          </p>
+          <p className="mb-3 text-sm text-gray-900"></p>
         </div>
 
         {/* <div className="text-center my-4 w-72">

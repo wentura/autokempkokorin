@@ -25,6 +25,13 @@
   background-position: center;
   background-size: cover;
 }
+.volnycasCta-bg {
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)),
+    url(foto1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
 #background-video {
   overflow: hidden !important;
   object-fit: cover;

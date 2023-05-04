@@ -38,7 +38,7 @@ export default function AboutPage() {
           </div>
         </div>
         <div className="my-8 max-w-4xl mx-auto border rounded-lg py-8">
-          <h3 className="text-center ctaHeader text-xl md:text-4xl py-8">
+          <h3 className="text-center ctaHeader text-4xl lg:text-6xl py-8">
             Menu
           </h3>
           <p className="">
@@ -181,7 +181,7 @@ export default function AboutPage() {
               </li>
             </ul>
           </p>
-          <h3 className="text-center ctaHeader text-xl md:text-4xl py-8">
+          <h3 className="text-center ctaHeader text-4xl lg:text-6xl py-8">
             Nápojový lístek
           </h3>
           <p className="">
@@ -344,6 +344,84 @@ export default function AboutPage() {
                 </span>
                 <span className="flex-1 border-b-2 border-dotted"></span>
                 <span className="pl-4 place-self-end	">70 Kč</span>
+              </li>
+            </ul>
+          </p>
+          <p className="">
+            <h4 className="text-xl mx-8 py-4">
+              <span className="underline">Víno</span>
+            </h4>
+            <ul className="flex flex-col mx-8">
+              <li className="flex flex-grow justify-between  pb-4">
+                <span className="pr-4 flex flex-col">
+                  <span>Rozlévané bíle / červené</span>
+                  <span className="text-xs">0,2l, dle nabídky</span>
+                </span>
+                <span className="flex-1 border-b-2 border-dotted"></span>
+                <span className="pl-4 place-self-end	">50 Kč</span>
+              </li>
+            </ul>
+          </p>
+          <p className="">
+            <h4 className="text-xl mx-8 py-4">
+              <span className="underline">Lihoviny a likéry</span>
+            </h4>
+            <ul className="flex flex-col mx-8">
+              <li className="flex flex-grow justify-between  pb-4">
+                <span className="pr-4 flex flex-col">
+                  <span>Božkov Rum / Griotka / Peprmint</span>
+                  <span className="text-xs">0,4l</span>
+                </span>
+                <span className="flex-1 border-b-2 border-dotted"></span>
+                <span className="pl-4 place-self-end	">40 Kč</span>
+              </li>
+              <li className="flex flex-grow justify-between  pb-4">
+                <span className="pr-4 flex flex-col">
+                  <span>Fernet / Fernet Citrus</span>
+                  <span className="text-xs">0,4l</span>
+                </span>
+                <span className="flex-1 border-b-2 border-dotted"></span>
+                <span className="pl-4 place-self-end	">50 Kč</span>
+              </li>
+              <li className="flex flex-grow justify-between  pb-4">
+                <span className="pr-4 flex flex-col">
+                  <span>Becherovka</span>
+                  <span className="text-xs">0,4l</span>
+                </span>
+                <span className="flex-1 border-b-2 border-dotted"></span>
+                <span className="pl-4 place-self-end	">50 Kč</span>
+              </li>
+              <li className="flex flex-grow justify-between  pb-4">
+                <span className="pr-4 flex flex-col">
+                  <span>Republika</span>
+                  <span className="text-xs">0,4l</span>
+                </span>
+                <span className="flex-1 border-b-2 border-dotted"></span>
+                <span className="pl-4 place-self-end	">60 Kč</span>
+              </li>
+              <li className="flex flex-grow justify-between  pb-4">
+                <span className="pr-4 flex flex-col">
+                  <span>Tatranský čaj 52%</span>
+                  <span className="text-xs">0,4l</span>
+                </span>
+                <span className="flex-1 border-b-2 border-dotted"></span>
+                <span className="pl-4 place-self-end	">80 Kč</span>
+              </li>
+              <li className="flex flex-grow justify-between  pb-4">
+                <span className="pr-4 flex flex-col">
+                  <span>Jägermeister</span>
+                  <span className="text-xs">0,4l</span>
+                </span>
+                <span className="flex-1 border-b-2 border-dotted"></span>
+                <span className="pl-4 place-self-end	">80 Kč</span>
+              </li>
+              <li className="flex flex-grow justify-between  pb-4">
+                <span className="pr-4 flex flex-col">
+                  <span>Tullamore Dew</span>
+                  <span className="text-xs">0,4l</span>
+                </span>
+                <span className="flex-1 border-b-2 border-dotted"></span>
+                <span className="pl-4 place-self-end	">80 Kč</span>
               </li>
             </ul>
           </p>

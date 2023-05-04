@@ -1,11 +1,11 @@
+import Image from "next/image";
 import Link from "next/link";
 import Cta from "../components/cta";
 import Header from "../components/header";
 export default function AboutPage() {
-  const uCtaText = "ideální místo pro rodinnou dovolenou";
-  const uCtaClaim =
-    "s dětskými hřišti a prostornými místy pro karavany, stany a obytňáky";
-  const uCtaCss = "ubytovaniCta-bg";
+  const uCtaText = "Ubytujte se v Autokempu Kokořín";
+  const uCtaClaim = "navštivte kulturní památky a přírodní zajímavosti v okolí";
+  const uCtaCss = "volnycasCta-bg";
 
   return (
     <>
@@ -17,38 +17,80 @@ export default function AboutPage() {
       </div>
       <div className="px-4 py-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
         <div className="flex flex-wrap gap-4 mt-8">
-          <div className="flex-1 min-w-[300px] bg-neutral-300">image</div>
           <div className="flex-1 min-w-[300px]">
-            <p className="py-2">
-              V autokempu je k dispozici 15 prostorných chat s parkovacím místem
-              až pro 3 auta, které jsou postaveny s 6-ti metrovými rozestupy.
+            <Image src="/foto1.jpg" width={800} height={600} alt="" />
+          </div>
+          <div className="flex-1 min-w-[300px]">
+            <p className="py-8 fontHero text-3xl md:text-5xl text-center">
+              Pěší turistika, cykloturistika
             </p>
             <p className="py-2">
-              Každá samostatná chatka WC a umyvadlo, kuchyňský kout, obývací
-              část s rozkládacím gaučem a balkonem. Do každe chatky se pohodlně
-              vejde až 6 osob. Ke každé chatce patří samostatné ohniště.
+              Navštivte památky či bizarní útvary, mezi které patří hrad
+              Kokořín, hrad Houska, Staráky, skalní byt ve Lhotce, skalní mlýn v
+              obci Tubož, sklaní mlýn u osady Hlučov, jeskyně Pod Máchovou
+              skálou, Klemperka, Mordloch, Klácelka, Kaple Máří Magdalény,
+              Harfenice, Had a spousty dalších.
+            </p>
+          </div>
+        </div>
+        <div className="flex flex-wrap gap-4 mt-8 flex-row-reverse">
+          <div className="flex-1 min-w-[300px]">
+            <Image src="/foto2.jpg" width={800} height={600} alt="" />
+          </div>
+          <div className="flex-1 min-w-[300px]">
+            <p className="py-8 fontHero text-3xl md:text-5xl text-center">
+              Koupání
             </p>
             <p className="py-2">
-              K dispozici jsou ohniště a plochy pro stanování, karavany a obytné
-              přívěsy s dostatečným množstvím elektrických přípojek.
+              Koupání v současné době poskytuje rybník Harasov vzdálený od kempu
+              necelé 4 km. Malé parkoviště pro auta, dvě pískové pláže, vysoké
+              skály a travnatá plocha nabízejí své zázemí.
+            </p>
+          </div>
+        </div>
+        <div className="flex flex-wrap gap-4 mt-8">
+          <div className="flex-1 min-w-[300px]">
+            <Image src="/foto3.jpg" width={800} height={600} alt="" />
+          </div>
+          <div className="flex-1 min-w-[300px]">
+            <p className="py-8 fontHero text-3xl md:text-5xl text-center">
+              Rybolov
             </p>
             <p className="py-2">
-              Sociální zázemí v autokempu se nachází v dvou budovách – starší v
-              dolní části a zrekonstruovaná v horní části u restaurace. V nových
-              umyvárnách teče teplá voda během celého dne.
+              Ubytovaní hosté mají možnost rybolovu v blízkém rybníku Kačírek.
+              Bližší informace o rybářském řádu a rybaření můžete získat přímo v
+              recepci.
+            </p>
+          </div>
+        </div>
+        <div className="flex flex-wrap gap-4 mt-8 flex-row-reverse">
+          <div className="flex-1 min-w-[300px]">
+            <Image src="/foto4.jpg" width={800} height={600} alt="" />
+          </div>
+          <div className="flex-1 min-w-[300px]">
+            <p className="py-8 fontHero text-3xl md:text-5xl text-center">
+              Jezdectví
             </p>
             <p className="py-2">
-              Domácí mazlíčky lze vzít s sebou, ale majitelé musí dodržovat
-              pravidla kempu a udržovat čistotu.
+              Kokořínské trasy, lesy i některé památky můžete vidět ze hřbetu
+              koně huculského. Farma Hucul klub Laka je od kempu vzdálená zhruba
+              6,5 km.
+            </p>
+          </div>
+        </div>
+        <div className="flex flex-wrap gap-4 mt-8">
+          <div className="flex-1 min-w-[300px]">
+            <Image src="/foto3.jpg" width={800} height={600} alt="" />
+          </div>
+          <div className="flex-1 min-w-[300px]">
+            <p className="py-8 fontHero text-3xl md:text-5xl text-center">
+              Lezectví
             </p>
             <p className="py-2">
-              V autokempu Kokořín se můžete těšit na širokou nabídku aktivit
-              (cykloturistika, pěší turistika, projížďky na koních, koupání nebo
-              lezení). Kemp je obklopen lesy a v blízkosti se nachází kulturní
-              památky a přírodní zajímavosti, jako je hrad Kokořín, Kokořínské
-              Pokličky a Žába, skalní byty a jeskyně. Doporučujeme ekologické
-              cestování po dobře značených trasách. Hřiště pro míčové hry,
-              pískoviště a hračky pro děti jsou také k dispozici.
+              Lezecké stěny mohou vyzkoušet nejen ti nejmenší, ale i jejich
+              rodiče samozřejmě pod odborným dozorem. Instrukce poskytuje
+              lezecký klub Mšeno nebo tréninková skála pro malé nad hospodou u
+              Grobiána.
             </p>
           </div>
         </div>

@@ -5,7 +5,7 @@ export default function Kde() {
     <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
       <div className="text-center font-extralight">
         <h2 className="text-3xl md:text-4xl font-black pb-6 ctaHeader">
-          kde najdete svůj klid a odpočinek?
+          kde najdete klid a odpočinek?
         </h2>
         <p className="font-bold underline underline-offset-4">
           <a
@@ -29,7 +29,7 @@ export default function Kde() {
             </Link>
           </div>
           <div className="flex-1 w-52 min-w-[250px] flex-col items-center">
-            <Link href="tel:00420773687792" className="cursor-pointer">
+            <Link href="tel:00420731165669" className="cursor-pointer">
               <Image
                 src="/phone.png"
                 width={50}
@@ -37,7 +37,7 @@ export default function Kde() {
                 alt=""
                 className="mx-auto pb-4"
               />
-              <p>+420 773 68 77 92</p>
+              <p>+420 731 165 669</p>
             </Link>
           </div>
           <div className="flex-1 w-52 min-w-[250px] flex-col items-center">

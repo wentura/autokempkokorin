@@ -15,11 +15,11 @@ export default function Hero() {
       >
         <source
           // src="https://res.cloudinary.com/dam7wdzvx/video/upload/ac_none,e_accelerate:-10,q_auto:eco/v1679762279/autokemp/atc4_a0zrs3.webm"
-          // src="https://res.cloudinary.com/dam7wdzvx/video/upload/v1679762279/autokemp/atc4_a0zrs3.webm"
+          src="https://res.cloudinary.com/dam7wdzvx/video/upload/v1679762279/autokemp/atc4_a0zrs3.webm"
           type="video/webm"
         />
 
-        {/* <source src="../atc_slow.mp4" type="video/mp4" /> */}
+        <source src="../atc_slow.mp4" type="video/mp4" />
       </video>
       <div className="z-1">
         <Header />
