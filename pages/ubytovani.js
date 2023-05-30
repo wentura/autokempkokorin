@@ -31,44 +31,49 @@ export default function AboutPage() {
               Chatky
             </h3>
             <p className="py-2">
-              V autokempu je k <strong>dispozici 15 prostorných chat</strong> s
-              parkovacím místem až pro 3 auta, které jsou postaveny s 6-ti
-              metrovými rozestupy.
+              V autokempu je 15 prostorných <strong>chat</strong> s parkovacím
+              místem až pro 3 auta.
             </p>
             <p className="py-2">
-              Každá <strong>samostatná chatka</strong> WC a umyvadlo, kuchyňský
-              kout, obývací část s rozkládacím gaučem a balkonem. Do každe
-              chatky se pohodlně vejde<strong> až 6 osob.</strong> Ke každé
-              chatce patří samostatné ohniště.
+              Každá chatka je
+              <strong>
+                {" "}
+                vybavena WC, teplou vodou, topením a kuchyňkou kout, obývací
+                část s rozkládacím gaučem a balkonem. Do chatky se vejde až 6
+                osob a u každé je samostatné ohniště.
+              </strong>
             </p>
             <h3 className="text-center text-4xl lg:text-6xl fontHero pt-12 pb-4">
               Stany a karavany
             </h3>
             <p className="py-2">
-              K dispozici jsou <strong>ohniště</strong> a plochy pro stanování,
-              karavany a obytné přívěsy s dostatečným množstvím{" "}
-              <strong>elektrických přípojek.</strong>
+              <strong>
+                Pro stany, karavany a obytné vozy jsou k dispozici čtyři plochy
+                vybavené pevným nebo přenosným ohništěm a s dostatečným
+                množstvím elektrických přípojek.
+              </strong>
             </p>
             <p className="py-2">
               Sociální zázemí v autokempu se nachází v dvou budovách – starší v
-              dolní části a zrekonstruovaná v horní části u restaurace. V nových
-              umyvárnách teče <strong>teplá voda</strong> během celého dne.
+              dolní části a <strong>novější</strong> v horní části u restaurace.
+              V nových umyvárnách teče <strong>teplá voda</strong> během celého
+              dne.
             </p>
             <p className="py-2">
-              Domácí mazlíčky lze vzít s sebou, ale majitelé musí dodržovat
-              pravidla kempu a udržovat čistotu.
+              Domácí <strong>mazlíčci jsou vítáni</strong>, ale majitelé musí
+              dodržovat pravidla kempu a udržovat čistotu.
             </p>
             <h3 className="text-center text-4xl lg:text-6xl fontHero pt-12 pb-4">
               Široká nabídka aktivit
             </h3>
             <p className="py-2">
-              V autokempu Kokořín se můžete těšit na širokou nabídku aktivit
+              Lokalita Kokořínska vám umožní <strong>širokou škálu aktivit</strong>
               (cykloturistika, pěší turistika, projížďky na koních, koupání nebo
               lezení). Kemp je obklopen lesy a v blízkosti se nachází kulturní
-              památky a přírodní zajímavosti, jako je hrad Kokořín, Kokořínské
-              Pokličky a Žába, skalní byty a jeskyně. Doporučujeme ekologické
-              cestování po dobře značených trasách. Hřiště pro míčové hry,
-              pískoviště a hračky pro děti jsou také k dispozici.
+              památky a přírodní zajímavosti, jako je <strong>hrad Kokořín, Houska,
+              Kokořínské Pokličky, pivovar Lobeč, skalní útvary, skalní byty a
+              jeskyně</strong>. Doporučujeme ekologické cestování po dobře značených
+              trasách.
             </p>
           </div>
         </div>

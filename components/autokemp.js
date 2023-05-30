@@ -15,8 +15,10 @@ export default function Autokemp() {
               <strong>kraji Karla Hynka Máchy</strong>.
             </p>
             <p className="text-base text-gray-700 md:text-lg pb-4">
-              <strong>Oddech a útěk od každodenních povinností</strong> a
-              aktivní dovolenou.
+              <strong>
+                Oddech a útěk od každodenních povinností, aktivní dovolenou
+              </strong>
+              .
             </p>
             <p className="text-base text-gray-700 md:text-lg pb-4">
               Nabízíme odpočinek v našem kempu, cykloturistiku, pěší turistiku,

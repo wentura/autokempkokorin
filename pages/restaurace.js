@@ -16,7 +16,7 @@ export default function AboutPage() {
       </div>
       <div className="px-4 py-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
         <div className="flex flex-wrap gap-4 mt-8">
-          <div className="flex-1 min-w-[300px] bg-neutral-300">image</div>
+          {/* <div className="flex-1 min-w-[300px] bg-neutral-300">image</div>
           <div className="flex-1 min-w-[300px]">
             <ul class="max-w-fit flex flex-col mx-auto">
               <li class="inline-flex justify-center gap-x-1 py-2 px-2 text-xl md:text-4xl ctaHeader border text-gray-800 -mt-px first:rounded-t-lg first:mt-0 last:rounded-b-lg ">
@@ -35,7 +35,7 @@ export default function AboutPage() {
                 listopad - únor: po dohodě
               </li>
             </ul>
-          </div>
+          </div> */}
         </div>
         <div className="my-8 max-w-4xl mx-auto border rounded-lg py-8">
           <h3 className="text-center ctaHeader text-4xl lg:text-6xl py-8">
