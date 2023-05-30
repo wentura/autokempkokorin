@@ -1,3 +1,4 @@
+import Head from "next/head";
 import Image from "next/image";
 import Cta from "../components/cta";
 import Header from "../components/header";
@@ -9,6 +10,14 @@ export default function AboutPage() {
 
   return (
     <>
+      <Head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Bahiana&display=swap"
+          rel="stylesheet"
+        />
+      </Head>
       <div className="pageHero">
         <Header />
         <div className="w-full mb-8 pl-4 my-4 pr-16 sm:mt-0 sm:pr-0 sm:pl-0 inline-block drop-shadow-md text-center text-white text-4xl sm:text-[88px] leading-snug fontHero ">
@@ -67,13 +76,16 @@ export default function AboutPage() {
               Široká nabídka aktivit
             </h3>
             <p className="py-2">
-              Lokalita Kokořínska vám umožní <strong>širokou škálu aktivit</strong>
+              Lokalita Kokořínska vám umožní{" "}
+              <strong>širokou škálu aktivit</strong>
               (cykloturistika, pěší turistika, projížďky na koních, koupání nebo
               lezení). Kemp je obklopen lesy a v blízkosti se nachází kulturní
-              památky a přírodní zajímavosti, jako je <strong>hrad Kokořín, Houska,
-              Kokořínské Pokličky, pivovar Lobeč, skalní útvary, skalní byty a
-              jeskyně</strong>. Doporučujeme ekologické cestování po dobře značených
-              trasách.
+              památky a přírodní zajímavosti, jako je{" "}
+              <strong>
+                hrad Kokořín, Houska, Kokořínské Pokličky, pivovar Lobeč, skalní
+                útvary, skalní byty a jeskyně
+              </strong>
+              . Doporučujeme ekologické cestování po dobře značených trasách.
             </p>
           </div>
         </div>
