@@ -2,32 +2,26 @@
 @tailwind components;
 @tailwind utilities;
 
-/* @font-face {
-  font-family: "bahiana";
-  src: url(/public/Bahiana-Regular.woff2);
-} */
-/* @import url("https://fonts.googleapis.com/css2?family=Bahiana&display=swap"); */
-/* font-family: 'Bahiana', cursive; */
 .hero-bg {
   background-color: red;
 }
 .cta1-bg {
   background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)),
-    url(cta1.jpg);
+    url("https://res.cloudinary.com/dam7wdzvx/image/upload/c_scale,w_1000/v1685528296/autokemp/images/ubytovani2_hwzxmu.webp");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 .ubytovaniCta-bg {
   background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)),
-    url(ubytovani2.jpg);
+    url("https://res.cloudinary.com/dam7wdzvx/image/upload/v1685528296/autokemp/images/ubytovani2_hwzxmu.webp");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 .volnycasCta-bg {
   background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)),
-    url(foto1.jpg);
+    url("https://res.cloudinary.com/dam7wdzvx/image/upload/v1685524442/autokemp/images/foto1_vprv4e.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -43,21 +37,15 @@
   z-index: -1 !important;
 }
 .fontHero {
-  /* font-family: "Bahiana" !important; */
-  font-family: "bahiana" !important;
-  /* font-family: "Great Vibes", cursive !important; */
+  font-family: "bahiana";
 }
 
 .ctaHeader {
   font-family: "bahiana" !important;
-  /* font-family: "Bahiana" !important; */
-  /* font-family: "Cinzel", serif; */
-  /* font-weight: 800; */
-  /* font-style: italic; */
 }
 .pageHero {
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url("../public/poster.jpg");
+    url("https://res.cloudinary.com/dam7wdzvx/image/upload/v1685524449/autokemp/images/poster_gq3dtq.jpg");
   background-position: center;
   background-size: cover;
 }

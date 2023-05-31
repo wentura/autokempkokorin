@@ -1,4 +1,3 @@
-import { text } from "@cloudinary/url-gen/qualifiers/source";
 import Link from "next/link";
 export default function Cta({ ...text }) {
   console.log(text.css);

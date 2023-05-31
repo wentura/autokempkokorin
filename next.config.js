@@ -1,7 +1,11 @@
 module.exports = {
-  // i18n: {
-  //   locales: ["cz", "en", "de"],
-  //   defaultLocale: "cz",
-  //   localeDetection: false,
-  // },
+  images: {
+    minimumCacheTTL: 3660,
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "res.cloudinary.com",
+      },
+    ],
+  },
 };

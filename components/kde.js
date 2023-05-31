@@ -19,7 +19,7 @@ export default function Kde() {
           <div className="flex-1 w-52 min-w-[250px] flex-col items-center">
             <Link href="mailto:info@atckokorin.cz" className="cursor-pointer">
               <Image
-                src="/at.png"
+                src="https://res.cloudinary.com/dam7wdzvx/image/upload/c_scale,w_60/v1685528288/autokemp/images/at_qfs2dv.webp"
                 width={50}
                 height={50}
                 alt=""
@@ -31,7 +31,7 @@ export default function Kde() {
           <div className="flex-1 w-52 min-w-[250px] flex-col items-center">
             <Link href="tel:00420731165669" className="cursor-pointer">
               <Image
-                src="/phone.png"
+                src="https://res.cloudinary.com/dam7wdzvx/image/upload/c_scale,w_60/v1685528291/autokemp/images/phone_gm04jn.webp"
                 width={50}
                 height={50}
                 alt=""
@@ -48,7 +48,7 @@ export default function Kde() {
               className="cursor-pointer"
             >
               <Image
-                src="/map.png"
+                src="https://res.cloudinary.com/dam7wdzvx/image/upload/c_scale,w_60/v1685528290/autokemp/images/map_d4erp7.webp"
                 width={50}
                 height={50}
                 alt=""
@@ -63,7 +63,7 @@ export default function Kde() {
           </div>
         </div>
         <Image
-          src="/atc-mapa.jpg"
+          src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1685528288/autokemp/images/atc-mapa_gwzvyr.webp"
           width={1000}
           height={522}
           alt="mapy.cz, kde najdete ATC Kokořín"

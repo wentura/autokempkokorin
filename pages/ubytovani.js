@@ -11,12 +11,7 @@ export default function AboutPage() {
   return (
     <>
       <Head>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Bahiana&display=swap"
-          rel="stylesheet"
-        />
+        <title>Ubytování - Autokemp Kokořín</title>
       </Head>
       <div className="pageHero">
         <Header />
@@ -28,7 +23,7 @@ export default function AboutPage() {
         <div className="flex flex-wrap gap-12 mt-8 flex-col-reverse lg:flex-row">
           <div className="flex-1 min-w-[300px]">
             <Image
-              src="/chatka.jpg"
+              src="https://res.cloudinary.com/dam7wdzvx/image/upload/c_scale,w_600/v1685524441/autokemp/images/chatka_kqblfl.jpg"
               width="600"
               height="600"
               alt="chatka"

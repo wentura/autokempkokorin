@@ -1,6 +1,7 @@
+import Head from "next/head";
 import Cta from "../components/cta";
 import Header from "../components/header";
-export default function AboutPage() {
+export default function Restaurace() {
   const uCtaText = "ideální místo pro rodinnou dovolenou";
   const uCtaClaim =
     "s dětskými hřišti a prostornými místy pro karavany, stany a obytňáky";
@@ -8,6 +9,9 @@ export default function AboutPage() {
 
   return (
     <>
+      <Head>
+        <title>Restaurace - Autokemp Kokořín</title>
+      </Head>
       <div className="pageHero">
         <Header />
         <div className="w-full mb-8 pl-4 my-4 pr-16 sm:mt-0 sm:pr-0 sm:pl-0 inline-block drop-shadow-md text-center text-white text-4xl sm:text-[88px] leading-snug fontHero ">
@@ -43,7 +47,7 @@ export default function AboutPage() {
           </h3>
           <p className="">
             <h4 className="text-xl mx-8 py-4">
-              <spanm className="underline">Snídaně</spanm>&nbsp;&nbsp;&nbsp;
+              <span className="underline">Snídaně</span>&nbsp;&nbsp;&nbsp;
               <span className="text-xs">8:00-10:00</span>
             </h4>
             <ul className="flex flex-col mx-8">
@@ -98,7 +102,7 @@ export default function AboutPage() {
           </p>
           <p className="border-t">
             <h4 className="text-xl mx-8 py-4">
-              <spanm className="underline">Hlavní jídla</spanm>
+              <span className="underline">Hlavní jídla</span>
               &nbsp;&nbsp;&nbsp;
               <span className="text-xs">17:00-20:45</span>
             </h4>
@@ -186,7 +190,7 @@ export default function AboutPage() {
           </h3>
           <p className="">
             <h4 className="text-xl mx-8 py-4">
-              <spanm className="underline">Pivo</spanm>&nbsp;&nbsp;&nbsp;
+              <span className="underline">Pivo</span>&nbsp;&nbsp;&nbsp;
             </h4>
             <ul className="flex flex-col mx-8">
               <li className="flex flex-grow justify-between  pb-4">

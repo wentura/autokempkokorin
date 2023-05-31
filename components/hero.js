@@ -11,11 +11,12 @@ export default function Hero() {
         loop
         muted
         className="overflow-hidden min-h-screen md:min-h-[800px] max-h-[90vh] md:max-h-[800px]"
-        poster="/poster.jpg"
+        poster="https://res.cloudinary.com/dam7wdzvx/image/upload/v1685524449/autokemp/images/poster_gq3dtq.jpg"
       >
         <source
           // src="https://res.cloudinary.com/dam7wdzvx/video/upload/ac_none,e_accelerate:-10,q_auto:eco/v1679762279/autokemp/atc4_a0zrs3.webm"
-          src="https://res.cloudinary.com/dam7wdzvx/video/upload/v1679762279/autokemp/atc4_a0zrs3.webm"
+          // src="https://res.cloudinary.com/dam7wdzvx/video/upload/v1679762279/autokemp/atc4_a0zrs3.webm"
+          src="https://res.cloudinary.com/dam7wdzvx/video/upload/q_auto:eco/v1679762279/autokemp/atc4_a0zrs3.webm"
           type="video/webm"
         />
 

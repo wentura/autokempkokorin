@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Head from "next/head";
 import Cta from "../components/cta";
 import Header from "../components/header";
 export default function AboutPage() {
@@ -9,6 +9,9 @@ export default function AboutPage() {
 
   return (
     <>
+      <Head>
+        <title>Ceník - Autokemp Kokořín</title>
+      </Head>
       <div className="pageHero">
         <Header />
         <div className="w-full mb-8 pl-4 my-4 pr-16 sm:mt-0 sm:pr-0 sm:pl-0 inline-block drop-shadow-md text-center text-white text-4xl sm:text-[88px] leading-snug fontHero ">
@@ -22,7 +25,7 @@ export default function AboutPage() {
           </h3>
           <p className="">
             <h4 className="text-xl mx-8 py-4">
-              <spanm className="underline">Chatky</spanm>&nbsp;&nbsp;&nbsp;
+              <span className="underline">Chatky</span>&nbsp;&nbsp;&nbsp;
             </h4>
             <ul className="flex flex-col mx-8">
               <li className="flex flex-grow justify-between  pb-4">
