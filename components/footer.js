@@ -63,7 +63,7 @@ export default function Footer() {
         <a
           href="https://www.zbyneksvoboda.cz"
           target="_blank"
-          className="underline underline-offset-4 decoration-slate-300 decoration-1 text-sm"
+          className="underline underline-offset-4 decoration-slate-300 decoration-1 text-xs pt-4"
         >
           vytvořil zbyneksvoboda.cz
         </a>

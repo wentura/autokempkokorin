@@ -19,7 +19,7 @@ export default function Kde() {
           <div className="flex-1 w-52 min-w-[250px] flex-col items-center">
             <Link href="mailto:info@atckokorin.cz" className="cursor-pointer">
               <Image
-                src="https://res.cloudinary.com/dam7wdzvx/image/upload/c_scale,w_60/v1685528288/autokemp/images/at_qfs2dv.webp"
+                src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1685606549/autokemp/images/at2_ysfp92.webp"
                 width={50}
                 height={50}
                 alt=""
