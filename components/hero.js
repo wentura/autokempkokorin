@@ -25,12 +25,12 @@ export default function Hero() {
       <div className="z-1">
         <Header />
         <div className=" sm:text-center sm:pl-0 sm:pt-8 ">
-          <h2 className="tracking-tight text-white text-3xl sm:text-[88px] leading-snug fontHero">
-            <span className="pl-4 mt-24 py-8 pr-16 sm:mt-0 sm:pr-0 sm:pl-0 sm:bg-opacity-0  relative inline-block drop-shadow-md bg-neutral-100 bg-opacity-30">
+          <h2 className="tracking-tight text-white text-5xl sm:text-[88px] leading-snug fontHero">
+            <span className="mt-24 py-5 sm:mt-0 sm:pr-0 sm:pl-0 relative inline-block drop-shadow-md  w-full text-center">
               klidné místo
               <br />v romantickém
               <br />
-              údolí <span className="text-4xl sm:text-[118px]">K</span>okořínska
+              údolí <span className="text-7xl sm:text-[118px]">K</span>okořínska
             </span>
           </h2>
         </div>

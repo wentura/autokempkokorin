@@ -36,18 +36,18 @@ export default function Footer() {
           <ul className="self-center py-2 space-y-4 text-center sm:flex sm:space-y-0 sm:justify-around sm:space-x-4 lg:flex-1 lg:justify-start cursor-pointer">
             <li>
               <Link
-                href="tel:00420731165669"
+                href="tel:00420608869906"
                 className="underline underline-offset-4 decoration-slate-300 decoration-2"
               >
-                731 165 669
+                608 869 906
               </Link>
             </li>
             <li>
               <Link
-                href="mailto:info@atckokorin.cz"
+                href="mailto:info@autokempkokorin.cz"
                 className="underline underline-offset-4 decoration-slate-300 decoration-2"
               >
-                info@atckokorin.cz
+                info@autokempkokorin.cz{" "}
               </Link>
             </li>
           </ul>

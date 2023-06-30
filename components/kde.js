@@ -17,7 +17,10 @@ export default function Kde() {
         </p>
         <div className="flex flex-wrap justify-center gap-8 py-8">
           <div className="flex-1 w-52 min-w-[250px] flex-col items-center">
-            <Link href="mailto:info@atckokorin.cz" className="cursor-pointer">
+            <Link
+              href="mailto:info@autokempkokorin.cz"
+              className="cursor-pointer"
+            >
               <Image
                 src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1685606549/autokemp/images/at2_ysfp92.webp"
                 width={50}
@@ -25,11 +28,11 @@ export default function Kde() {
                 alt=""
                 className="mx-auto pb-4"
               />
-              <p>info@atckokorin.cz</p>
+              <p>info@autokempkokorin.cz</p>
             </Link>
           </div>
           <div className="flex-1 w-52 min-w-[250px] flex-col items-center">
-            <Link href="tel:00420731165669" className="cursor-pointer">
+            <Link href="tel:00420608869906" className="cursor-pointer">
               <Image
                 src="https://res.cloudinary.com/dam7wdzvx/image/upload/c_scale,w_60/v1685528291/autokemp/images/phone_gm04jn.webp"
                 width={50}
@@ -37,7 +40,7 @@ export default function Kde() {
                 alt=""
                 className="mx-auto pb-4"
               />
-              <p>+420 731 165 669</p>
+              <p>+420 608 869 906</p>
             </Link>
           </div>
           <div className="flex-1 w-52 min-w-[250px] flex-col items-center">
