@@ -43,7 +43,7 @@ export default function AboutPage() {
               Každá chatka je
               <strong>
                 {" "}
-                vybavena WC, teplou vodou, topením a kuchyňkou kout, obývací
+                vybavena WC, teplou vodou, topením a kuchyňským koutem, obývací
                 část s rozkládacím gaučem a balkonem. Do chatky se vejde až 6
                 osob a u každé je samostatné ohniště.
               </strong>
