@@ -23,6 +23,9 @@ export default function AboutPage() {
           <h3 className="text-center ctaHeader text-4xl lg:text-6xl py-8">
             Autokemp Kokořín - ceník ubytování
           </h3>
+          <p className=" text-gray-700 text-sm pb-4 mx-8">
+            Přijímáme hotovost i platební karty
+          </p>
           <h4 className="text-xl mx-8 py-4">
             <span className="underline">Chatky</span>&nbsp;&nbsp;&nbsp;
           </h4>
