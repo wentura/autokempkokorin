@@ -13,19 +13,21 @@ export default function Autokemp() {
         />
       </Head>
       <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
-        {/* <div className="px-4 py-4 mb-24 mx-auto max-w-full sm:max-w-5xl border-0 border-l-4 border-gray-400">
+        <div className="px-4 py-4 mb-24 mx-auto max-w-full sm:max-w-5xl border-0 border-l-4 border-gray-400">
           <h3 className=" mx-auto font-sans font-bolder ctaHeader text-2xl mb-4">
             Aktuality autokempu Kokořín
           </h3>
           <ul className="text-md">
             <li>
-              <strong>26.8. 2023 celý den a 27.8. 2023 dopoledne</strong> bude
-              restaurace v kempu uzavřena z důvodu konání soukromé akce.
+              <strong>
+                Dne 9.9. 2023 odpoledne a večer a 10.9. 2023 dopoledne
+              </strong>{" "}
+              je restaurace v kempu uzavřena z důvodu konání soukromé akce.
               <br />
               Děkujeme za pochopení
             </li>
           </ul>
-        </div> */}
+        </div>
         <div className="grid gap-10 lg:grid-cols-2">
           <div className="flex flex-col justify-center md:pr-8 xl:pr-0 lg:max-w-lg">
             <div className="max-w-xl mb-6 font-extralight">
