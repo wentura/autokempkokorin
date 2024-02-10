@@ -58,7 +58,7 @@ export default function Footer() {
       </div>
       <div className="text-center w-full py-12">
         <span className="fontHero text-3xl">Autokemp Kokořín</span>
-        &nbsp;&nbsp; &reg; &nbsp;&nbsp;2023
+        &nbsp;&nbsp; &reg; &nbsp;&nbsp;2024
         <br />
         <a
           href="https://www.zbyneksvoboda.cz"
