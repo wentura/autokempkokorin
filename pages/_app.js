@@ -6,7 +6,7 @@ export default function App({ Component, pageProps }) {
     <>
       <Head>
         <meta name="author" content="www.zbyneksvoboda.cz" />
-        <meta name="copyright" content="2023 Autokemp Kokořín" />
+        <meta name="copyright" content="2024 Autokemp Kokořín" />
         <meta name="robots" content="index,follow" />
         <meta
           name="keywords"
