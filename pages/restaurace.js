@@ -112,21 +112,22 @@ export default function Restaurace() {
               <span className="flex-1 border-b-2 border-dotted"></span>
               <span className="pl-4 place-self-end w-20 md:w-24">55 Kč</span>
             </li>
-            {/* <li className="flex flex-grow justify-between pb-4">
-                <span className="pr-4 flex flex-col">
-                  <span>Nakládaný hermelín</span>
-                  <span className="text-xs">1ks, chléb</span>
-                </span>
-                <span className="flex-1 border-b-2 border-dotted"></span>
-                <span className="pl-4 place-self-end w-20 md:w-24">85 Kč</span>
-              </li> */}
+
             <li className="flex flex-grow justify-between pb-4">
               <span className="pr-4 flex flex-col">
                 <span>Domácí utopenec</span>
                 <span className="text-xs">1ks s cibulí a octem, chléb</span>
               </span>
               <span className="flex-1 border-b-2 border-dotted"></span>
-              <span className="pl-4 place-self-end w-20 md:w-24">60 Kč</span>
+              <span className="pl-4 place-self-end w-20 md:w-24">80 Kč</span>
+            </li>
+            <li className="flex flex-grow justify-between pb-4">
+              <span className="pr-4 flex flex-col">
+                <span>Nakládaný hermelín</span>
+                <span className="text-xs">s chlébem</span>
+              </span>
+              <span className="flex-1 border-b-2 border-dotted"></span>
+              <span className="pl-4 place-self-end w-20 md:w-24">90 Kč</span>
             </li>
             <li className="flex flex-grow justify-between pb-4">
               <span className="pr-4 flex flex-col">
@@ -142,7 +143,7 @@ export default function Restaurace() {
                 <span className="text-xs">okurka, hořčice, chléb</span>
               </span>
               <span className="flex-1 border-b-2 border-dotted"></span>
-              <span className="pl-4 place-self-end w-20 md:w-24">80 Kč</span>
+              <span className="pl-4 place-self-end w-20 md:w-24">120 Kč</span>
             </li>
             <li className="flex flex-grow justify-between pt-12 pb-4">
               <span className="pr-4 flex flex-col">
