@@ -192,19 +192,23 @@ export default function Restaurace() {
           <ul className="flex flex-col mx-0 md:mx-4 w-full">
             <li className="flex flex-grow justify-between  pb-4">
               <span className="pr-4 flex flex-col">
-                <span>Čepované pivo</span>
-                <span className="text-xs">dle nabídky, 0,5l</span>
+                <span>Čepované pivo Vopičák 10°</span>
+                <span className="text-xs">
+                  Pivovar Němý medvěd Mělník, 0,5l
+                </span>
               </span>
               <span className="flex-1 border-b-2 border-dotted"></span>
-              <span className="pl-4 place-self-end w-20 md:w-24">40 Kč</span>
+              <span className="pl-4 place-self-end w-20 md:w-24">45 Kč</span>
             </li>
             <li className="flex flex-grow justify-between pb-4">
               <span className="pr-4 flex flex-col">
-                <span>Čepované pivo</span>
-                <span className="text-xs">dle nabídky, 0,3l</span>
+                <span>Čepované pivo Vopičák 10°</span>
+                <span className="text-xs">
+                  Pivovar Němý medvěd Mělník, 0,3l
+                </span>
               </span>
               <span className="flex-1 border-b-2 border-dotted"></span>
-              <span className="pl-4 place-self-end w-20 md:w-24">30 Kč</span>
+              <span className="pl-4 place-self-end w-20 md:w-24">35 Kč</span>
             </li>
             <li className="flex flex-grow justify-between pb-4">
               <span className="pr-4 flex flex-col">
