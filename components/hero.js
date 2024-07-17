@@ -11,12 +11,14 @@ export default function Hero() {
         loop
         muted
         className="overflow-hidden min-h-screen md:min-h-[800px] max-h-[90vh] md:max-h-[800px]"
-        poster="https://res.cloudinary.com/dam7wdzvx/image/upload/v1685524449/autokemp/images/poster_gq3dtq.jpg"
+        // poster="https://res.cloudinary.com/dam7wdzvx/image/upload/v1685524449/autokemp/images/poster_gq3dtq.jpg"
+        poster={`poster_gq3dtq.jpg`}
       >
         <source
           // src="https://res.cloudinary.com/dam7wdzvx/video/upload/ac_none,e_accelerate:-10,q_auto:eco/v1679762279/autokemp/atc4_a0zrs3.webm"
           // src="https://res.cloudinary.com/dam7wdzvx/video/upload/v1679762279/autokemp/atc4_a0zrs3.webm"
-          src="https://res.cloudinary.com/dam7wdzvx/video/upload/q_auto:eco/v1679762279/autokemp/atc4_a0zrs3.webm"
+          // src="https://res.cloudinary.com/dam7wdzvx/video/upload/q_auto:eco/v1679762279/autokemp/atc4_a0zrs3.webm"
+          src={`atc4_a0zrs3.webm`}
           type="video/webm"
         />
 
@@ -24,9 +26,9 @@ export default function Hero() {
       </video>
       <div className="z-1">
         <Header />
-        <div className=" sm:text-center sm:pl-0 sm:pt-8 ">
+        <div className=" sm:text-center sm:pl-0 sm:pt-8">
           <h2 className="tracking-tight text-white text-5xl sm:text-[88px] leading-snug fontHero">
-            <span className="mt-24 py-5 sm:mt-0 sm:pr-0 sm:pl-0 relative inline-block drop-shadow-md  w-full text-center">
+            <span className="relative inline-block w-full py-5 mt-24 text-center sm:mt-0 sm:pr-0 sm:pl-0 drop-shadow-md">
               klidné místo
               <br />v romantickém
               <br />
