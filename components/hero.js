@@ -18,7 +18,8 @@ export default function Hero() {
           // src="https://res.cloudinary.com/dam7wdzvx/video/upload/ac_none,e_accelerate:-10,q_auto:eco/v1679762279/autokemp/atc4_a0zrs3.webm"
           // src="https://res.cloudinary.com/dam7wdzvx/video/upload/v1679762279/autokemp/atc4_a0zrs3.webm"
           // src="https://res.cloudinary.com/dam7wdzvx/video/upload/q_auto:eco/v1679762279/autokemp/atc4_a0zrs3.webm"
-          src="https://res.cloudinary.com/dsoicy8fk/video/upload/v1722773006/atc4_a0zrs3_uvk9wz.webm"
+          src="https://res.cloudinary.com/dsoicy8fk/video/upload/v1722773006/atc4_a0zrs3_uvk9wz2.webm"
+          // !!! vypnul jsem to nez na to prijdu kde hostovat 
           // src={`atc4_a0zrs3.webm`}
           type="video/webm"
         />
