@@ -41,119 +41,119 @@ export default function Restaurace() {
             </ul>
           </div>
         </div> */}
-        <div className="my-8 max-w-4xl mx-auto py-8">
-          <h3 className="text-center ctaHeader text-4xl lg:text-6xl py-8">
+        <div className="max-w-4xl py-8 mx-auto my-8">
+          <h3 className="py-8 text-4xl text-center ctaHeader lg:text-6xl">
             Menu
           </h3>
-          <h4 className="text-xl mx-8 py-4">
+          <h4 className="py-4 mx-8 text-xl">
             <span className="underline">Snídaně</span>&nbsp;&nbsp;&nbsp;
             <span className="text-xs">8:00-10:00</span>
           </h4>
-          <ul className="flex flex-col mx-0 md:mx-4 w-full">
-            <li className="flex flex-grow justify-between  pb-4">
-              <span className="pr-4 flex flex-col">
+          <ul className="flex flex-col w-full mx-0 md:mx-4">
+            <li className="flex justify-between flex-grow pb-4">
+              <span className="flex flex-col pr-4">
                 <span>Hemenex</span>
                 <span className="text-xs">šunka, 3 vejce, chléb</span>
               </span>
               <span className="flex-1 border-b-2 border-dotted"></span>
-              <span className="pl-4 place-self-end w-20 md:w-24">90 Kč</span>
+              <span className="w-20 pl-4 place-self-end md:w-24">90 Kč</span>
             </li>
-            <li className="flex flex-grow justify-between pb-4">
-              <span className="pr-4 flex flex-col">
+            <li className="flex justify-between flex-grow pb-4">
+              <span className="flex flex-col pr-4">
                 <span>Míchaná vejce</span>
                 <span className="text-xs">3 vejce, chléb</span>
               </span>
               <span className="flex-1 border-b-2 border-dotted"></span>
-              <span className="pl-4 place-self-end w-20 md:w-24">60 Kč</span>
+              <span className="w-20 pl-4 place-self-end md:w-24">60 Kč</span>
             </li>
-            <li className="flex flex-grow justify-between pb-4">
-              <span className="pr-4 flex flex-col">
+            <li className="flex justify-between flex-grow pb-4">
+              <span className="flex flex-col pr-4">
                 <span>Párky</span>
                 <span className="text-xs">2ks, chléb, hořčice</span>
               </span>
               <span className="flex-1 border-b-2 border-dotted"></span>
-              <span className="pl-4 place-self-end w-20 md:w-24">60 Kč</span>
+              <span className="w-20 pl-4 place-self-end md:w-24">60 Kč</span>
             </li>
-            <li className="flex flex-grow justify-between pb-4">
-              <span className="pr-4 flex flex-col">
+            <li className="flex justify-between flex-grow pb-4">
+              <span className="flex flex-col pr-4">
                 <span>Sladký talíř</span>
                 <span className="text-xs">marmeláda, máslo, 2ks pečiva</span>
               </span>
               <span className="flex-1 border-b-2 border-dotted"></span>
-              <span className="pl-4 place-self-end w-20 md:w-24">60 Kč</span>
+              <span className="w-20 pl-4 place-self-end md:w-24">60 Kč</span>
             </li>
-            <li className="flex flex-grow justify-between pb-4">
-              <span className="pr-4 flex flex-col">
+            <li className="flex justify-between flex-grow pb-4">
+              <span className="flex flex-col pr-4">
                 <span>Slaný talíř</span>
                 <span className="text-xs">šunka, šýr, máslo, 2ks pečiva</span>
               </span>
               <span className="flex-1 border-b-2 border-dotted"></span>
-              <span className="pl-4 place-self-end w-20 md:w-24">90 Kč</span>
+              <span className="w-20 pl-4 place-self-end md:w-24">90 Kč</span>
             </li>
-            <li className="flex flex-grow justify-between pb-4">
-              <span className="pr-4 flex flex-col">
+            <li className="flex justify-between flex-grow pb-4">
+              <span className="flex flex-col pr-4">
                 <span>Jogurt a müsli</span>
               </span>
               <span className="flex-1 border-b-2 border-dotted"></span>
-              <span className="pl-4 place-self-end w-20 md:w-24">60 Kč</span>
+              <span className="w-20 pl-4 place-self-end md:w-24">60 Kč</span>
             </li>
           </ul>
-          <h4 className="text-xl mx-8 py-4 pt-16">
+          <h4 className="py-4 pt-16 mx-8 text-xl">
             <span className="underline">Nabídka</span>
             &nbsp;&nbsp;&nbsp;
-            <span className="text-xs">17:00-20:45</span>
+            <span className="text-xs">17:00-20:00</span>
           </h4>
-          <ul className="flex flex-col mx-0 md:mx-4 w-full">
-            <li className="flex flex-grow justify-between  pb-4">
-              <span className="pr-4 flex flex-col">
+          <ul className="flex flex-col w-full mx-0 md:mx-4">
+            <li className="flex justify-between flex-grow pb-4">
+              <span className="flex flex-col pr-4">
                 <span>Polévka dle denní nabídky</span>
                 <span className="text-xs">s chlebem</span>
               </span>
               <span className="flex-1 border-b-2 border-dotted"></span>
-              <span className="pl-4 place-self-end w-20 md:w-24">55 Kč</span>
+              <span className="w-20 pl-4 place-self-end md:w-24">55 Kč</span>
             </li>
 
-            <li className="flex flex-grow justify-between pb-4">
-              <span className="pr-4 flex flex-col">
+            <li className="flex justify-between flex-grow pb-4">
+              <span className="flex flex-col pr-4">
                 <span>Domácí utopenec</span>
                 <span className="text-xs">1ks s cibulí a octem, chléb</span>
               </span>
               <span className="flex-1 border-b-2 border-dotted"></span>
-              <span className="pl-4 place-self-end w-20 md:w-24">80 Kč</span>
+              <span className="w-20 pl-4 place-self-end md:w-24">80 Kč</span>
             </li>
-            <li className="flex flex-grow justify-between pb-4">
-              <span className="pr-4 flex flex-col">
+            <li className="flex justify-between flex-grow pb-4">
+              <span className="flex flex-col pr-4">
                 <span>Nakládaný hermelín</span>
                 <span className="text-xs">s chlébem</span>
               </span>
               <span className="flex-1 border-b-2 border-dotted"></span>
-              <span className="pl-4 place-self-end w-20 md:w-24">90 Kč</span>
+              <span className="w-20 pl-4 place-self-end md:w-24">90 Kč</span>
             </li>
-            <li className="flex flex-grow justify-between pb-4">
-              <span className="pr-4 flex flex-col">
+            <li className="flex justify-between flex-grow pb-4">
+              <span className="flex flex-col pr-4">
                 <span>Škvarková pomazánka</span>
                 <span className="text-xs">s chlebem</span>
               </span>
               <span className="flex-1 border-b-2 border-dotted"></span>
-              <span className="pl-4 place-self-end w-20 md:w-24">80 Kč</span>
+              <span className="w-20 pl-4 place-self-end md:w-24">80 Kč</span>
             </li>
-            <li className="flex flex-grow justify-between pb-4">
-              <span className="pr-4 flex flex-col">
+            <li className="flex justify-between flex-grow pb-4">
+              <span className="flex flex-col pr-4">
                 <span>Klobása</span>
                 <span className="text-xs">okurka, hořčice, chléb</span>
               </span>
               <span className="flex-1 border-b-2 border-dotted"></span>
-              <span className="pl-4 place-self-end w-20 md:w-24">120 Kč</span>
+              <span className="w-20 pl-4 place-self-end md:w-24">120 Kč</span>
             </li>
-            <li className="flex flex-grow justify-between pt-12 pb-4">
-              <span className="pr-4 flex flex-col">
+            <li className="flex justify-between flex-grow pt-12 pb-4">
+              <span className="flex flex-col pr-4">
                 <span>Smažený sýr</span>
                 <span className="text-xs">
                   Eidam 40%, hranolky, tatarská omáčka
                 </span>
               </span>
               <span className="flex-1 border-b-2 border-dotted"></span>
-              <span className="pl-4 place-self-end w-20 md:w-24">190 Kč</span>
+              <span className="w-20 pl-4 place-self-end md:w-24">190 Kč</span>
             </li>
             <li className="flex flex-grow pb-4">
               <span className="flex flex-col">
@@ -161,247 +161,247 @@ export default function Restaurace() {
                 <span className="text-xs">hranolky</span>
               </span>
               <span className="flex-1 border-b-2 border-dotted"></span>
-              <span className="	pl-4 place-self-end w-20 md:w-24">190 Kč</span>
+              <span className="w-20 pl-4  place-self-end md:w-24">190 Kč</span>
             </li>
-            <li className="flex flex-grow justify-between pb-4">
-              <span className="pr-4 flex flex-col">
+            <li className="flex justify-between flex-grow pb-4">
+              <span className="flex flex-col pr-4">
                 <span>Hermelín na grilu</span>
                 <span className="text-xs">zeleninový salát, nachos</span>
               </span>
               <span className="flex-1 border-b-2 border-dotted"></span>
-              <span className="pl-4 place-self-end w-20 md:w-24">190 Kč</span>
+              <span className="w-20 pl-4 place-self-end md:w-24">190 Kč</span>
             </li>
-            <li className="flex flex-grow justify-between pb-4">
-              <span className="pr-4 flex flex-col">
+            <li className="flex justify-between flex-grow pb-4">
+              <span className="flex flex-col pr-4">
                 <span>Davelská žebírka</span>
                 <span className="text-xs">
                   okurka, hořčice, beraní rohy, cibule, chléb
                 </span>
               </span>
               <span className="flex-1 border-b-2 border-dotted"></span>
-              <span className="pl-4 place-self-end w-20 md:w-24">190 Kč</span>
+              <span className="w-20 pl-4 place-self-end md:w-24">190 Kč</span>
             </li>
           </ul>
-          <h3 className="text-center ctaHeader text-4xl lg:text-6xl py-8 pt-28">
+          <h3 className="py-8 text-4xl text-center ctaHeader lg:text-6xl pt-28">
             Nápojový lístek
           </h3>
-          <h4 className="text-xl mx-8 py-4">
+          <h4 className="py-4 mx-8 text-xl">
             <span className="underline">Pivo</span>&nbsp;&nbsp;&nbsp;
           </h4>
 
-          <ul className="flex flex-col mx-0 md:mx-4 w-full">
-            <li className="flex flex-grow justify-between  pb-4">
-              <span className="pr-4 flex flex-col">
+          <ul className="flex flex-col w-full mx-0 md:mx-4">
+            <li className="flex justify-between flex-grow pb-4">
+              <span className="flex flex-col pr-4">
                 <span>Čepované pivo Vopičák 10°</span>
                 <span className="text-xs">
                   Pivovar Němý medvěd Mělník, 0,5l
                 </span>
               </span>
               <span className="flex-1 border-b-2 border-dotted"></span>
-              <span className="pl-4 place-self-end w-20 md:w-24">45 Kč</span>
+              <span className="w-20 pl-4 place-self-end md:w-24">45 Kč</span>
             </li>
-            <li className="flex flex-grow justify-between pb-4">
-              <span className="pr-4 flex flex-col">
+            <li className="flex justify-between flex-grow pb-4">
+              <span className="flex flex-col pr-4">
                 <span>Čepované pivo Vopičák 10°</span>
                 <span className="text-xs">
                   Pivovar Němý medvěd Mělník, 0,3l
                 </span>
               </span>
               <span className="flex-1 border-b-2 border-dotted"></span>
-              <span className="pl-4 place-self-end w-20 md:w-24">35 Kč</span>
+              <span className="w-20 pl-4 place-self-end md:w-24">35 Kč</span>
             </li>
-            <li className="flex flex-grow justify-between pb-4">
-              <span className="pr-4 flex flex-col">
+            <li className="flex justify-between flex-grow pb-4">
+              <span className="flex flex-col pr-4">
                 <span>Pilsner Urquell</span>
                 <span className="text-xs">čepované plzeňské pivo, 0,5l</span>
               </span>
               <span className="flex-1 border-b-2 border-dotted"></span>
-              <span className="pl-4 place-self-end w-20 md:w-24">60 Kč</span>
+              <span className="w-20 pl-4 place-self-end md:w-24">60 Kč</span>
             </li>
-            <li className="flex flex-grow justify-between pb-4">
-              <span className="pr-4 flex flex-col">
+            <li className="flex justify-between flex-grow pb-4">
+              <span className="flex flex-col pr-4">
                 <span>Pilsner Urquell</span>
                 <span className="text-xs">čepované plzeňské pivo, 0,3l</span>
               </span>
               <span className="flex-1 border-b-2 border-dotted"></span>
-              <span className="pl-4 place-self-end w-20 md:w-24">45 Kč</span>
+              <span className="w-20 pl-4 place-self-end md:w-24">45 Kč</span>
             </li>
-            <li className="flex flex-grow justify-between pb-4">
-              <span className="pr-4 flex flex-col">
+            <li className="flex justify-between flex-grow pb-4">
+              <span className="flex flex-col pr-4">
                 <span>Birell</span>
                 <span className="text-xs">
                   nealkoholické pivo, v lahvi, 0,5l
                 </span>
               </span>
               <span className="flex-1 border-b-2 border-dotted"></span>
-              <span className="pl-4 place-self-end w-20 md:w-24">40 Kč</span>
+              <span className="w-20 pl-4 place-self-end md:w-24">40 Kč</span>
             </li>
           </ul>
 
-          <h4 className="text-xl mx-8 py-4">
+          <h4 className="py-4 mx-8 text-xl">
             <span className="underline">Horké nápoje</span>
           </h4>
-          <ul className="flex flex-col mx-0 md:mx-4 w-full">
-            <li className="flex flex-grow justify-between  pb-4">
-              <span className="pr-4 flex flex-col">
+          <ul className="flex flex-col w-full mx-0 md:mx-4">
+            <li className="flex justify-between flex-grow pb-4">
+              <span className="flex flex-col pr-4">
                 <span>Čaj</span>
                 <span className="text-xs">černý, zelený, ovocný</span>
               </span>
               <span className="flex-1 border-b-2 border-dotted"></span>
-              <span className="pl-4 place-self-end w-20 md:w-24">40 Kč</span>
+              <span className="w-20 pl-4 place-self-end md:w-24">40 Kč</span>
             </li>
-            <li className="flex flex-grow justify-between pb-4">
-              <span className="pr-4 flex flex-col">
+            <li className="flex justify-between flex-grow pb-4">
+              <span className="flex flex-col pr-4">
                 <span>Káva</span>
                 <span className="text-xs">rozpustná, turecká</span>
               </span>
               <span className="flex-1 border-b-2 border-dotted"></span>
-              <span className="pl-4 place-self-end w-20 md:w-24">40 Kč</span>
+              <span className="w-20 pl-4 place-self-end md:w-24">40 Kč</span>
             </li>
-            <li className="flex flex-grow justify-between pb-4">
-              <span className="pr-4 flex flex-col">
+            <li className="flex justify-between flex-grow pb-4">
+              <span className="flex flex-col pr-4">
                 <span>Espresso</span>
                 {/* <span className="text-xs">čepované plzeňské pivo, 0,5l</span> */}
               </span>
               <span className="flex-1 border-b-2 border-dotted"></span>
-              <span className="pl-4 place-self-end w-20 md:w-24">50 Kč</span>
+              <span className="w-20 pl-4 place-self-end md:w-24">50 Kč</span>
             </li>
-            <li className="flex flex-grow justify-between pb-4">
-              <span className="pr-4 flex flex-col">
+            <li className="flex justify-between flex-grow pb-4">
+              <span className="flex flex-col pr-4">
                 <span>Grog</span>
                 <span className="text-xs">horká voda, rum, citron</span>
               </span>
               <span className="flex-1 border-b-2 border-dotted"></span>
-              <span className="pl-4 place-self-end w-20 md:w-24">55 Kč</span>
+              <span className="w-20 pl-4 place-self-end md:w-24">55 Kč</span>
             </li>
-            <li className="flex flex-grow justify-between pb-4">
-              <span className="pr-4 flex flex-col">
+            <li className="flex justify-between flex-grow pb-4">
+              <span className="flex flex-col pr-4">
                 <span>Horká griotka</span>
                 {/* <span className="text-xs">
                     nealkoholické pivo, v lahvi, 0,5l
                   </span> */}
               </span>
               <span className="flex-1 border-b-2 border-dotted"></span>
-              <span className="pl-4 place-self-end w-20 md:w-24">55 Kč</span>
+              <span className="w-20 pl-4 place-self-end md:w-24">55 Kč</span>
             </li>
-            <li className="flex flex-grow justify-between pb-4">
-              <span className="pr-4 flex flex-col">
+            <li className="flex justify-between flex-grow pb-4">
+              <span className="flex flex-col pr-4">
                 <span>Tatranský čaj</span>
                 <span className="text-xs">0,02l, horká voda</span>
               </span>
               <span className="flex-1 border-b-2 border-dotted"></span>
-              <span className="pl-4 place-self-end w-20 md:w-24">70 Kč</span>
+              <span className="w-20 pl-4 place-self-end md:w-24">70 Kč</span>
             </li>
           </ul>
-          <h4 className="text-xl mx-8 py-4">
+          <h4 className="py-4 mx-8 text-xl">
             <span className="underline">Nealkoholické nápoje</span>
           </h4>
-          <ul className="flex flex-col mx-0 md:mx-4 w-full">
-            <li className="flex flex-grow justify-between  pb-4">
-              <span className="pr-4 flex flex-col">
+          <ul className="flex flex-col w-full mx-0 md:mx-4">
+            <li className="flex justify-between flex-grow pb-4">
+              <span className="flex flex-col pr-4">
                 <span>Vinea čepovaná</span>
                 <span className="text-xs">0,3l</span>
               </span>
               <span className="flex-1 border-b-2 border-dotted"></span>
-              <span className="pl-4 place-self-end w-20 md:w-24">30 Kč</span>
+              <span className="w-20 pl-4 place-self-end md:w-24">30 Kč</span>
             </li>
-            <li className="flex flex-grow justify-between pb-4">
-              <span className="pr-4 flex flex-col">
+            <li className="flex justify-between flex-grow pb-4">
+              <span className="flex flex-col pr-4">
                 <span>Vinea čepovaná</span>
                 <span className="text-xs">0,5l</span>
               </span>
               <span className="flex-1 border-b-2 border-dotted"></span>
-              <span className="pl-4 place-self-end w-20 md:w-24">40 Kč</span>
+              <span className="w-20 pl-4 place-self-end md:w-24">40 Kč</span>
             </li>
-            <li className="flex flex-grow justify-between pb-4">
-              <span className="pr-4 flex flex-col">
+            <li className="flex justify-between flex-grow pb-4">
+              <span className="flex flex-col pr-4">
                 <span>Cola, Fanta, Sprite</span>
                 <span className="text-xs">0,3l</span>
               </span>
               <span className="flex-1 border-b-2 border-dotted"></span>
-              <span className="pl-4 place-self-end w-20 md:w-24">40 Kč</span>
+              <span className="w-20 pl-4 place-self-end md:w-24">40 Kč</span>
             </li>
-            <li className="flex flex-grow justify-between pb-4">
-              <span className="pr-4 flex flex-col">
+            <li className="flex justify-between flex-grow pb-4">
+              <span className="flex flex-col pr-4">
                 <span>Džus jablko, pomeranč</span>
                 <span className="text-xs">0,3l</span>
               </span>
               <span className="flex-1 border-b-2 border-dotted"></span>
-              <span className="pl-4 place-self-end w-20 md:w-24">40 Kč</span>
+              <span className="w-20 pl-4 place-self-end md:w-24">40 Kč</span>
             </li>
           </ul>
-          <h4 className="text-xl mx-8 py-4">
+          <h4 className="py-4 mx-8 text-xl">
             <span className="underline">Víno</span>
           </h4>
-          <ul className="flex flex-col mx-0 md:mx-4 w-full">
-            <li className="flex flex-grow justify-between  pb-4">
-              <span className="pr-4 flex flex-col">
+          <ul className="flex flex-col w-full mx-0 md:mx-4">
+            <li className="flex justify-between flex-grow pb-4">
+              <span className="flex flex-col pr-4">
                 <span>Rozlévané bíle / červené</span>
                 <span className="text-xs">0,2l, dle nabídky</span>
               </span>
               <span className="flex-1 border-b-2 border-dotted"></span>
-              <span className="pl-4 place-self-end w-20 md:w-24">50 Kč</span>
+              <span className="w-20 pl-4 place-self-end md:w-24">50 Kč</span>
             </li>
           </ul>
-          <h4 className="text-xl mx-8 py-4">
+          <h4 className="py-4 mx-8 text-xl">
             <span className="underline">Lihoviny a likéry</span>
           </h4>
-          <ul className="flex flex-col mx-0 md:mx-4 w-full">
-            <li className="flex flex-grow justify-between  pb-4">
-              <span className="pr-4 flex flex-col">
+          <ul className="flex flex-col w-full mx-0 md:mx-4">
+            <li className="flex justify-between flex-grow pb-4">
+              <span className="flex flex-col pr-4">
                 <span>Božkov Rum / Griotka / Peprmint</span>
                 <span className="text-xs">0,4l</span>
               </span>
               <span className="flex-1 border-b-2 border-dotted"></span>
-              <span className="pl-4 place-self-end w-20 md:w-24">40 Kč</span>
+              <span className="w-20 pl-4 place-self-end md:w-24">40 Kč</span>
             </li>
-            <li className="flex flex-grow justify-between  pb-4">
-              <span className="pr-4 flex flex-col">
+            <li className="flex justify-between flex-grow pb-4">
+              <span className="flex flex-col pr-4">
                 <span>Fernet / Fernet Citrus</span>
                 <span className="text-xs">0,4l</span>
               </span>
               <span className="flex-1 border-b-2 border-dotted"></span>
-              <span className="pl-4 place-self-end w-20 md:w-24">50 Kč</span>
+              <span className="w-20 pl-4 place-self-end md:w-24">50 Kč</span>
             </li>
-            <li className="flex flex-grow justify-between  pb-4">
-              <span className="pr-4 flex flex-col">
+            <li className="flex justify-between flex-grow pb-4">
+              <span className="flex flex-col pr-4">
                 <span>Becherovka</span>
                 <span className="text-xs">0,4l</span>
               </span>
               <span className="flex-1 border-b-2 border-dotted"></span>
-              <span className="pl-4 place-self-end w-20 md:w-24">50 Kč</span>
+              <span className="w-20 pl-4 place-self-end md:w-24">50 Kč</span>
             </li>
-            {/* <li className="flex flex-grow justify-between  pb-4">
-                <span className="pr-4 flex flex-col">
+            {/* <li className="flex justify-between flex-grow pb-4">
+                <span className="flex flex-col pr-4">
                   <span>Republika</span>
                   <span className="text-xs">0,4l</span>
                 </span>
                 <span className="flex-1 border-b-2 border-dotted"></span>
-                <span className="pl-4 place-self-end w-20 md:w-24">60 Kč</span>
+                <span className="w-20 pl-4 place-self-end md:w-24">60 Kč</span>
               </li> */}
-            <li className="flex flex-grow justify-between  pb-4">
-              <span className="pr-4 flex flex-col">
+            <li className="flex justify-between flex-grow pb-4">
+              <span className="flex flex-col pr-4">
                 <span>Tatranský čaj 52%</span>
                 <span className="text-xs">0,4l</span>
               </span>
               <span className="flex-1 border-b-2 border-dotted"></span>
-              <span className="pl-4 place-self-end w-20 md:w-24">80 Kč</span>
+              <span className="w-20 pl-4 place-self-end md:w-24">80 Kč</span>
             </li>
-            <li className="flex flex-grow justify-between  pb-4">
-              <span className="pr-4 flex flex-col">
+            <li className="flex justify-between flex-grow pb-4">
+              <span className="flex flex-col pr-4">
                 <span>Jägermeister</span>
                 <span className="text-xs">0,4l</span>
               </span>
               <span className="flex-1 border-b-2 border-dotted"></span>
-              <span className="pl-4 place-self-end w-20 md:w-24">80 Kč</span>
+              <span className="w-20 pl-4 place-self-end md:w-24">80 Kč</span>
             </li>
-            <li className="flex flex-grow justify-between  pb-4">
-              <span className="pr-4 flex flex-col">
+            <li className="flex justify-between flex-grow pb-4">
+              <span className="flex flex-col pr-4">
                 <span>Tullamore Dew</span>
                 <span className="text-xs">0,4l</span>
               </span>
               <span className="flex-1 border-b-2 border-dotted"></span>
-              <span className="pl-4 place-self-end w-20 md:w-24">80 Kč</span>
+              <span className="w-20 pl-4 place-self-end md:w-24">80 Kč</span>
             </li>
           </ul>
         </div>
