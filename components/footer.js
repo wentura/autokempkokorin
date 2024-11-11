@@ -15,11 +15,11 @@ export default function Footer() {
               restaurace
             </Link>
           </li>
-          <li>
+          {/* <li>
             <Link href="/cenik" className="">
               ceník
             </Link>
-          </li>
+          </li> */}
 
           <li>
             <Link href="/volny-cas" className="">

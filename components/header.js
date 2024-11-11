@@ -36,7 +36,7 @@ export default function Header() {
               restaurace
             </Link>
           </li>
-          <li className="flex">
+          {/* <li className="flex">
             <Link
               rel="noopener noreferrer"
               href="/cenik"
@@ -44,7 +44,7 @@ export default function Header() {
             >
               ceník
             </Link>
-          </li>
+          </li> */}
           <li className="flex">
             <Link
               rel="noopener noreferrer"
