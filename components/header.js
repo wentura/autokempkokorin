@@ -7,13 +7,13 @@ export default function Header() {
     setIsOpen(!isOpen);
   }
   return (
-    <header className="p-4 h-24 md:h-48 text-white">
+    <header className="h-24 p-4 text-white md:h-48">
       <div className="container flex justify-between h-16 mx-auto">
         <Link
           rel="noopener noreferrer"
           href="/"
           aria-label="Back to homepage"
-          className="flex items-center p-2 ctaHeader text-xl md:text-3xl"
+          className="flex items-center p-2 text-xl ctaHeader md:text-3xl"
         >
           Autokemp KOKOŘÍN
         </Link>
@@ -22,7 +22,7 @@ export default function Header() {
             <Link
               rel="noopener noreferrer"
               href="/ubytovani"
-              className="flex items-center px-4 -mb-1 hover:underline transition duration-300 ease-in-out underline-offset-4"
+              className="flex items-center px-4 -mb-1 transition duration-300 ease-in-out hover:underline underline-offset-4"
             >
               ubytování
             </Link>
@@ -31,25 +31,25 @@ export default function Header() {
             <Link
               rel="noopener noreferrer"
               href="/restaurace"
-              className="flex items-center px-4 -mb-1 hover:underline transition duration-300 ease-in-out underline-offset-4"
+              className="flex items-center px-4 -mb-1 transition duration-300 ease-in-out hover:underline underline-offset-4"
             >
               restaurace
             </Link>
           </li>
-          {/* <li className="flex">
+          <li className="flex">
             <Link
               rel="noopener noreferrer"
               href="/cenik"
-              className="flex items-center px-4 -mb-1 hover:underline transition duration-300 ease-in-out underline-offset-4"
+              className="flex items-center px-4 -mb-1 transition duration-300 ease-in-out hover:underline underline-offset-4"
             >
               ceník
             </Link>
-          </li> */}
+          </li>
           <li className="flex">
             <Link
               rel="noopener noreferrer"
               href="/volny-cas"
-              className="flex items-center px-4 -mb-1 hover:underline transition duration-300 ease-in-out underline-offset-4"
+              className="flex items-center px-4 -mb-1 transition duration-300 ease-in-out hover:underline underline-offset-4"
             >
               volný čas
             </Link>
@@ -58,7 +58,7 @@ export default function Header() {
             <Link
               rel="noopener noreferrer"
               href="/kontakt"
-              className="flex items-center px-4 -mb-1 hover:underline transition duration-300 ease-in-out underline-offset-4"
+              className="flex items-center px-4 -mb-1 transition duration-300 ease-in-out hover:underline underline-offset-4"
             >
               kontakt
             </Link>
@@ -101,12 +101,12 @@ export default function Header() {
               ></path>
             </svg>
           </button>
-          <ul className="flex flex-col gap-y-4 w-full items-center text-xl my-12">
+          <ul className="flex flex-col items-center w-full my-12 text-xl gap-y-4">
             <li className="flex">
               <Link
                 rel="noopener noreferrer"
                 href="/ubytovani"
-                className="flex items-center px-4 -mb-1 hover:underline transition duration-300 ease-in-out underline-offset-4"
+                className="flex items-center px-4 -mb-1 transition duration-300 ease-in-out hover:underline underline-offset-4"
               >
                 ubytování
               </Link>
@@ -115,7 +115,7 @@ export default function Header() {
               <Link
                 rel="noopener noreferrer"
                 href="/restaurace"
-                className="flex items-center px-4 -mb-1 hover:underline transition duration-300 ease-in-out underline-offset-4"
+                className="flex items-center px-4 -mb-1 transition duration-300 ease-in-out hover:underline underline-offset-4"
               >
                 restaurace
               </Link>
@@ -124,7 +124,7 @@ export default function Header() {
               <Link
                 rel="noopener noreferrer"
                 href="/cenik"
-                className="flex items-center px-4 -mb-1 hover:underline transition duration-300 ease-in-out underline-offset-4"
+                className="flex items-center px-4 -mb-1 transition duration-300 ease-in-out hover:underline underline-offset-4"
               >
                 ceník
               </Link>
@@ -133,7 +133,7 @@ export default function Header() {
               <Link
                 rel="noopener noreferrer"
                 href="/volny-cas"
-                className="flex items-center px-4 -mb-1 hover:underline transition duration-300 ease-in-out underline-offset-4"
+                className="flex items-center px-4 -mb-1 transition duration-300 ease-in-out hover:underline underline-offset-4"
               >
                 volný čas
               </Link>
@@ -142,7 +142,7 @@ export default function Header() {
               <Link
                 rel="noopener noreferrer"
                 href="/kontakt"
-                className="flex items-center px-4 -mb-1 hover:underline transition duration-300 ease-in-out underline-offset-4"
+                className="flex items-center px-4 -mb-1 transition duration-300 ease-in-out hover:underline underline-offset-4"
               >
                 kontakt
               </Link>
