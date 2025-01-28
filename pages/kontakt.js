@@ -104,7 +104,7 @@ export default function Kontakt() {
           <div className="w-50 text-xs">
             odpovědná osoba:
             <br />
-            Františka Vítová
+            Františka Skálová
           </div>
         </div>
       </div>
