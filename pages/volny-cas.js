@@ -61,6 +61,27 @@ export default function AboutPage() {
         <div className="flex flex-wrap gap-4 mt-8">
           <div className="flex-1 min-w-[300px]">
             <Image
+              src="https://res.cloudinary.com/dam7wdzvx/image/upload/c_scale,w_800/v1685524444/autokemp/images/foto5_x79qsh.jpg"
+              width={800}
+              height={600}
+              alt=""
+            />
+          </div>
+          <div className="flex-1 min-w-[300px]">
+            <p className="py-8 fontHero text-3xl md:text-5xl text-center">
+              Lezectví
+            </p>
+            <p className="py-2">
+              Lezecké stěny mohou vyzkoušet nejen ti nejmenší, ale i jejich
+              rodiče samozřejmě pod odborným dozorem. Instrukce poskytuje
+              lezecký klub Mšeno nebo tréninková skála pro malé nad hospodou u
+              Grobiána.
+            </p>
+          </div>
+        </div>
+        {/* <div className="flex flex-wrap gap-4 mt-8">
+          <div className="flex-1 min-w-[300px]">
+            <Image
               src="https://res.cloudinary.com/dam7wdzvx/image/upload/c_scale,w_800/v1685524442/autokemp/images/foto3_ukaiaw.jpg"
               width={800}
               height={600}
@@ -77,7 +98,7 @@ export default function AboutPage() {
               recepci.
             </p>
           </div>
-        </div>
+        </div> */}
         <div className="flex flex-wrap gap-4 mt-8 flex-row-reverse">
           <div className="flex-1 min-w-[300px]">
             <Image
@@ -95,27 +116,6 @@ export default function AboutPage() {
               Kokořínské trasy, lesy i některé památky můžete vidět ze hřbetu
               koně huculského. Farma Hucul klub Laka je od kempu vzdálená zhruba
               6,5 km.
-            </p>
-          </div>
-        </div>
-        <div className="flex flex-wrap gap-4 mt-8">
-          <div className="flex-1 min-w-[300px]">
-            <Image
-              src="https://res.cloudinary.com/dam7wdzvx/image/upload/c_scale,w_800/v1685524444/autokemp/images/foto5_x79qsh.jpg"
-              width={800}
-              height={600}
-              alt=""
-            />
-          </div>
-          <div className="flex-1 min-w-[300px]">
-            <p className="py-8 fontHero text-3xl md:text-5xl text-center">
-              Lezectví
-            </p>
-            <p className="py-2">
-              Lezecké stěny mohou vyzkoušet nejen ti nejmenší, ale i jejich
-              rodiče samozřejmě pod odborným dozorem. Instrukce poskytuje
-              lezecký klub Mšeno nebo tréninková skála pro malé nad hospodou u
-              Grobiána.
             </p>
           </div>
         </div>
