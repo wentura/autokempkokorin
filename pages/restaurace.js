@@ -50,21 +50,21 @@ export default function Restaurace() {
             <span className="text-xs">8:00-10:00</span>
           </h4>
           <ul className="flex flex-col w-full mx-0 md:mx-4">
-            <li className="flex justify-between flex-grow pb-4">
+            <li className="flex justify-between flex-grow pb-4 w-full">
               <span className="flex flex-col pr-4">
                 <span>Hemenex</span>
                 <span className="text-xs">šunka, 3 vejce, chléb</span>
               </span>
               <span className="flex-1 border-b-2 border-dotted"></span>
-              <span className="w-20 pl-4 place-self-end md:w-24">90 Kč</span>
+              <span className="w-20 pl-4 place-self-end md:w-24">100 Kč</span>
             </li>
-            <li className="flex justify-between flex-grow pb-4">
+            <li className="flex justify-between flex-grow pb-4 w-full">
               <span className="flex flex-col pr-4">
                 <span>Míchaná vejce</span>
                 <span className="text-xs">3 vejce, chléb</span>
               </span>
               <span className="flex-1 border-b-2 border-dotted"></span>
-              <span className="w-20 pl-4 place-self-end md:w-24">60 Kč</span>
+              <span className="w-20 pl-4 place-self-end md:w-24">70 Kč</span>
             </li>
             <li className="flex justify-between flex-grow pb-4">
               <span className="flex flex-col pr-4">
@@ -72,7 +72,7 @@ export default function Restaurace() {
                 <span className="text-xs">2ks, chléb, hořčice</span>
               </span>
               <span className="flex-1 border-b-2 border-dotted"></span>
-              <span className="w-20 pl-4 place-self-end md:w-24">60 Kč</span>
+              <span className="w-20 pl-4 place-self-end md:w-24">70 Kč</span>
             </li>
             <li className="flex justify-between flex-grow pb-4">
               <span className="flex flex-col pr-4">
@@ -80,7 +80,7 @@ export default function Restaurace() {
                 <span className="text-xs">marmeláda, máslo, 2ks pečiva</span>
               </span>
               <span className="flex-1 border-b-2 border-dotted"></span>
-              <span className="w-20 pl-4 place-self-end md:w-24">60 Kč</span>
+              <span className="w-20 pl-4 place-self-end md:w-24">70 Kč</span>
             </li>
             <li className="flex justify-between flex-grow pb-4">
               <span className="flex flex-col pr-4">
@@ -88,20 +88,20 @@ export default function Restaurace() {
                 <span className="text-xs">šunka, šýr, máslo, 2ks pečiva</span>
               </span>
               <span className="flex-1 border-b-2 border-dotted"></span>
-              <span className="w-20 pl-4 place-self-end md:w-24">90 Kč</span>
+              <span className="w-20 pl-4 place-self-end md:w-24">100 Kč</span>
             </li>
             <li className="flex justify-between flex-grow pb-4">
               <span className="flex flex-col pr-4">
                 <span>Jogurt a müsli</span>
               </span>
               <span className="flex-1 border-b-2 border-dotted"></span>
-              <span className="w-20 pl-4 place-self-end md:w-24">60 Kč</span>
+              <span className="w-20 pl-4 place-self-end md:w-24">70 Kč</span>
             </li>
           </ul>
           <h4 className="py-4 pt-16 mx-8 text-xl">
             <span className="underline">Nabídka</span>
             &nbsp;&nbsp;&nbsp;
-            <span className="text-xs">17:00-20:00</span>
+            <span className="text-xs">17:00-20:30</span>
           </h4>
           <ul className="flex flex-col w-full mx-0 md:mx-4">
             <li className="flex justify-between flex-grow pb-4">
@@ -110,7 +110,7 @@ export default function Restaurace() {
                 <span className="text-xs">s chlebem</span>
               </span>
               <span className="flex-1 border-b-2 border-dotted"></span>
-              <span className="w-20 pl-4 place-self-end md:w-24">55 Kč</span>
+              <span className="w-20 pl-4 place-self-end md:w-24">60 Kč</span>
             </li>
 
             <li className="flex justify-between flex-grow pb-4">
@@ -121,7 +121,7 @@ export default function Restaurace() {
               <span className="flex-1 border-b-2 border-dotted"></span>
               <span className="w-20 pl-4 place-self-end md:w-24">80 Kč</span>
             </li>
-            <li className="flex justify-between flex-grow pb-4">
+            {/* <li className="flex justify-between flex-grow pb-4">
               <span className="flex flex-col pr-4">
                 <span>Nakládaný hermelín</span>
                 <span className="text-xs">s chlébem</span>
@@ -136,14 +136,14 @@ export default function Restaurace() {
               </span>
               <span className="flex-1 border-b-2 border-dotted"></span>
               <span className="w-20 pl-4 place-self-end md:w-24">80 Kč</span>
-            </li>
+            </li> */}
             <li className="flex justify-between flex-grow pb-4">
               <span className="flex flex-col pr-4">
                 <span>Klobása</span>
                 <span className="text-xs">okurka, hořčice, chléb</span>
               </span>
               <span className="flex-1 border-b-2 border-dotted"></span>
-              <span className="w-20 pl-4 place-self-end md:w-24">120 Kč</span>
+              <span className="w-20 pl-4 place-self-end md:w-24">160 Kč</span>
             </li>
             <li className="flex justify-between flex-grow pt-12 pb-4">
               <span className="flex flex-col pr-4">
@@ -153,7 +153,7 @@ export default function Restaurace() {
                 </span>
               </span>
               <span className="flex-1 border-b-2 border-dotted"></span>
-              <span className="w-20 pl-4 place-self-end md:w-24">190 Kč</span>
+              <span className="w-20 pl-4 place-self-end md:w-24">210 Kč</span>
             </li>
             <li className="flex flex-grow pb-4">
               <span className="flex flex-col">
@@ -161,16 +161,16 @@ export default function Restaurace() {
                 <span className="text-xs">hranolky</span>
               </span>
               <span className="flex-1 border-b-2 border-dotted"></span>
-              <span className="w-20 pl-4  place-self-end md:w-24">190 Kč</span>
+              <span className="w-20 pl-4  place-self-end md:w-24">210 Kč</span>
             </li>
-            <li className="flex justify-between flex-grow pb-4">
+            {/* <li className="flex justify-between flex-grow pb-4">
               <span className="flex flex-col pr-4">
                 <span>Hermelín na grilu</span>
                 <span className="text-xs">zeleninový salát, nachos</span>
               </span>
               <span className="flex-1 border-b-2 border-dotted"></span>
               <span className="w-20 pl-4 place-self-end md:w-24">190 Kč</span>
-            </li>
+            </li> */}
             <li className="flex justify-between flex-grow pb-4">
               <span className="flex flex-col pr-4">
                 <span>Davelská žebírka</span>
@@ -179,7 +179,7 @@ export default function Restaurace() {
                 </span>
               </span>
               <span className="flex-1 border-b-2 border-dotted"></span>
-              <span className="w-20 pl-4 place-self-end md:w-24">190 Kč</span>
+              <span className="w-20 pl-4 place-self-end md:w-24">210 Kč</span>
             </li>
           </ul>
           <h3 className="py-8 text-4xl text-center ctaHeader lg:text-6xl pt-28">
@@ -198,7 +198,7 @@ export default function Restaurace() {
                 </span>
               </span>
               <span className="flex-1 border-b-2 border-dotted"></span>
-              <span className="w-20 pl-4 place-self-end md:w-24">45 Kč</span>
+              <span className="w-20 pl-4 place-self-end md:w-24">55 Kč</span>
             </li>
             <li className="flex justify-between flex-grow pb-4">
               <span className="flex flex-col pr-4">
@@ -208,7 +208,7 @@ export default function Restaurace() {
                 </span>
               </span>
               <span className="flex-1 border-b-2 border-dotted"></span>
-              <span className="w-20 pl-4 place-self-end md:w-24">35 Kč</span>
+              <span className="w-20 pl-4 place-self-end md:w-24">40 Kč</span>
             </li>
             <li className="flex justify-between flex-grow pb-4">
               <span className="flex flex-col pr-4">
@@ -216,7 +216,7 @@ export default function Restaurace() {
                 <span className="text-xs">čepované plzeňské pivo, 0,5l</span>
               </span>
               <span className="flex-1 border-b-2 border-dotted"></span>
-              <span className="w-20 pl-4 place-self-end md:w-24">60 Kč</span>
+              <span className="w-20 pl-4 place-self-end md:w-24">70 Kč</span>
             </li>
             <li className="flex justify-between flex-grow pb-4">
               <span className="flex flex-col pr-4">
@@ -224,7 +224,7 @@ export default function Restaurace() {
                 <span className="text-xs">čepované plzeňské pivo, 0,3l</span>
               </span>
               <span className="flex-1 border-b-2 border-dotted"></span>
-              <span className="w-20 pl-4 place-self-end md:w-24">45 Kč</span>
+              <span className="w-20 pl-4 place-self-end md:w-24">50 Kč</span>
             </li>
             <li className="flex justify-between flex-grow pb-4">
               <span className="flex flex-col pr-4">
@@ -234,7 +234,7 @@ export default function Restaurace() {
                 </span>
               </span>
               <span className="flex-1 border-b-2 border-dotted"></span>
-              <span className="w-20 pl-4 place-self-end md:w-24">40 Kč</span>
+              <span className="w-20 pl-4 place-self-end md:w-24">45 Kč</span>
             </li>
           </ul>
 
@@ -248,7 +248,7 @@ export default function Restaurace() {
                 <span className="text-xs">černý, zelený, ovocný</span>
               </span>
               <span className="flex-1 border-b-2 border-dotted"></span>
-              <span className="w-20 pl-4 place-self-end md:w-24">40 Kč</span>
+              <span className="w-20 pl-4 place-self-end md:w-24">45 Kč</span>
             </li>
             <li className="flex justify-between flex-grow pb-4">
               <span className="flex flex-col pr-4">
@@ -256,15 +256,23 @@ export default function Restaurace() {
                 <span className="text-xs">rozpustná, turecká</span>
               </span>
               <span className="flex-1 border-b-2 border-dotted"></span>
-              <span className="w-20 pl-4 place-self-end md:w-24">40 Kč</span>
+              <span className="w-20 pl-4 place-self-end md:w-24">45 Kč</span>
             </li>
             <li className="flex justify-between flex-grow pb-4">
               <span className="flex flex-col pr-4">
-                <span>Espresso</span>
+                <span>Espresso / Lungo</span>
                 {/* <span className="text-xs">čepované plzeňské pivo, 0,5l</span> */}
               </span>
               <span className="flex-1 border-b-2 border-dotted"></span>
-              <span className="w-20 pl-4 place-self-end md:w-24">50 Kč</span>
+              <span className="w-20 pl-4 place-self-end md:w-24">55 Kč</span>
+            </li>
+            <li className="flex justify-between flex-grow pb-4">
+              <span className="flex flex-col pr-4">
+                <span>Caffe Latte / Cappuccino</span>
+                {/* <span className="text-xs">čepované plzeňské pivo, 0,5l</span> */}
+              </span>
+              <span className="flex-1 border-b-2 border-dotted"></span>
+              <span className="w-20 pl-4 place-self-end md:w-24">70 Kč</span>
             </li>
             <li className="flex justify-between flex-grow pb-4">
               <span className="flex flex-col pr-4">
@@ -272,7 +280,7 @@ export default function Restaurace() {
                 <span className="text-xs">horká voda, rum, citron</span>
               </span>
               <span className="flex-1 border-b-2 border-dotted"></span>
-              <span className="w-20 pl-4 place-self-end md:w-24">55 Kč</span>
+              <span className="w-20 pl-4 place-self-end md:w-24">60 Kč</span>
             </li>
             <li className="flex justify-between flex-grow pb-4">
               <span className="flex flex-col pr-4">
@@ -282,7 +290,7 @@ export default function Restaurace() {
                   </span> */}
               </span>
               <span className="flex-1 border-b-2 border-dotted"></span>
-              <span className="w-20 pl-4 place-self-end md:w-24">55 Kč</span>
+              <span className="w-20 pl-4 place-self-end md:w-24">60 Kč</span>
             </li>
             <li className="flex justify-between flex-grow pb-4">
               <span className="flex flex-col pr-4">
@@ -290,7 +298,7 @@ export default function Restaurace() {
                 <span className="text-xs">0,02l, horká voda</span>
               </span>
               <span className="flex-1 border-b-2 border-dotted"></span>
-              <span className="w-20 pl-4 place-self-end md:w-24">70 Kč</span>
+              <span className="w-20 pl-4 place-self-end md:w-24">80 Kč</span>
             </li>
           </ul>
           <h4 className="py-4 mx-8 text-xl">
@@ -303,7 +311,7 @@ export default function Restaurace() {
                 <span className="text-xs">0,3l</span>
               </span>
               <span className="flex-1 border-b-2 border-dotted"></span>
-              <span className="w-20 pl-4 place-self-end md:w-24">30 Kč</span>
+              <span className="w-20 pl-4 place-self-end md:w-24">35 Kč</span>
             </li>
             <li className="flex justify-between flex-grow pb-4">
               <span className="flex flex-col pr-4">
@@ -311,7 +319,7 @@ export default function Restaurace() {
                 <span className="text-xs">0,5l</span>
               </span>
               <span className="flex-1 border-b-2 border-dotted"></span>
-              <span className="w-20 pl-4 place-self-end md:w-24">40 Kč</span>
+              <span className="w-20 pl-4 place-self-end md:w-24">45 Kč</span>
             </li>
             <li className="flex justify-between flex-grow pb-4">
               <span className="flex flex-col pr-4">
@@ -319,7 +327,7 @@ export default function Restaurace() {
                 <span className="text-xs">0,3l</span>
               </span>
               <span className="flex-1 border-b-2 border-dotted"></span>
-              <span className="w-20 pl-4 place-self-end md:w-24">40 Kč</span>
+              <span className="w-20 pl-4 place-self-end md:w-24">45 Kč</span>
             </li>
             <li className="flex justify-between flex-grow pb-4">
               <span className="flex flex-col pr-4">
@@ -327,7 +335,7 @@ export default function Restaurace() {
                 <span className="text-xs">0,3l</span>
               </span>
               <span className="flex-1 border-b-2 border-dotted"></span>
-              <span className="w-20 pl-4 place-self-end md:w-24">40 Kč</span>
+              <span className="w-20 pl-4 place-self-end md:w-24">45 Kč</span>
             </li>
           </ul>
           <h4 className="py-4 mx-8 text-xl">
@@ -340,7 +348,7 @@ export default function Restaurace() {
                 <span className="text-xs">0,2l, dle nabídky</span>
               </span>
               <span className="flex-1 border-b-2 border-dotted"></span>
-              <span className="w-20 pl-4 place-self-end md:w-24">50 Kč</span>
+              <span className="w-20 pl-4 place-self-end md:w-24">60 Kč</span>
             </li>
           </ul>
           <h4 className="py-4 mx-8 text-xl">
