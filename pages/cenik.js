@@ -29,113 +29,99 @@ export default function AboutPage() {
           <h4 className="py-4 mx-8 text-xl">
             <span className="underline">Chatky</span>&nbsp;&nbsp;&nbsp;
           </h4>
-          <p className="">
-            <ul className="flex flex-col w-full mx-0 md:mx-4">
-              <li className="flex justify-between flex-grow pb-4">
-                <span className="flex flex-col pr-4">
-                  <span>Chatka / noc (jedna noc)</span>
-                </span>
-                <span className="flex-1 border-b-2 border-dotted"></span>
-                <span className="w-20 pl-4 place-self-end md:w-24">
-                  1700 Kč
-                </span>
-              </li>
-              <li className="flex justify-between flex-grow pb-4">
-                <span className="flex flex-col pr-4">
-                  <span>Chatka / noc (více nocí)</span>
-                </span>
-                <span className="flex-1 border-b-2 border-dotted"></span>
-                <span className="w-20 pl-4 place-self-end md:w-24">
-                  1500 Kč
-                </span>
-              </li>
-              <li className="flex justify-between flex-grow pb-4">
-                <span className="flex flex-col pr-4">
-                  <span>Chatka se sprchou (jedna noc)</span>
-                </span>
-                <span className="flex-1 border-b-2 border-dotted"></span>
-                <span className="w-20 pl-4 place-self-end md:w-24">
-                  2000 Kč
-                </span>
-              </li>
-              <li className="flex justify-between flex-grow pb-4">
-                <span className="flex flex-col pr-4">
-                  <span>Chatka se sprchou (více nocí)</span>
-                </span>
-                <span className="flex-1 border-b-2 border-dotted"></span>
-                <span className="w-20 pl-4 place-self-end md:w-24">
-                  1700 Kč
-                </span>
-              </li>
-              <li className="flex justify-between flex-grow pb-4">
-                <span className="flex flex-col pr-4">
-                  <span>Chatka / týden</span>
-                </span>
-                <span className="flex-1 border-b-2 border-dotted"></span>
-                <span className="w-20 pl-4 place-self-end md:w-24">
-                  8400 Kč
-                </span>
-              </li>
-              <li className="flex justify-between flex-grow pb-4">
-                <span className="flex flex-col pr-4">
-                  <span>Chatka se sprchou / týden</span>
-                </span>
-                <span className="flex-1 border-b-2 border-dotted"></span>
-                <span className="w-20 pl-4 place-self-end md:w-24">
-                  9800 Kč
-                </span>
-              </li>
-              <li className="flex flex-col justify-between flex-grow pb-4">
-                <div> Jednorázový poplatek</div>
-                <div className="">
-                  <li className="flex justify-between flex-grow pl-4">
-                    <span>Osoba</span>
-                    <span className="flex-1 border-b-2 border-dotted"></span>
-                    <span className="w-20 pl-4 place-self-end md:w-24">
-                      100 Kč
-                    </span>
-                  </li>
-                  <li className="flex justify-between flex-grow pl-4">
-                    <span>Dítě</span>
-                    <span className="flex-1 border-b-2 border-dotted"></span>
-                    <span className="w-20 pl-4 place-self-end md:w-24">
-                      60 Kč
-                    </span>
-                  </li>
-                  <li className="flex justify-between flex-grow pl-4">
-                    <span>Pes</span>
-                    <span className="flex-1 border-b-2 border-dotted"></span>
-                    <span className="w-20 pl-4 place-self-end md:w-24">
-                      200 Kč
-                    </span>
-                  </li>
-                  <li className="flex justify-between flex-grow pl-4">
-                    <span>Auto</span>
-                    <span className="flex-1 border-b-2 border-dotted"></span>
-                    <span className="w-20 pl-4 place-self-end md:w-24">
-                      100 Kč
-                    </span>
-                  </li>
-                </div>
-              </li>
-              <li className="flex justify-between flex-grow pb-4">
-                <span className="flex flex-col pr-4">
-                  <span>Povlečení / ks (na pobyt)</span>
-                </span>
-                <span className="flex-1 border-b-2 border-dotted"></span>
-                <span className="w-20 pl-4 place-self-end md:w-24">50 Kč</span>
-              </li>
-              <li className="flex justify-between flex-grow pb-4">
-                <span className="flex flex-col pr-4">
-                  <span>Elektřina v chatce / kWh</span>
-                </span>
-                <span className="flex-1 border-b-2 border-dotted"></span>
-                <span className="w-20 pl-4 place-self-end md:w-24">7 Kč</span>
-              </li>
-            </ul>
-          </p>
+          <ul className="flex flex-col w-full mx-0 md:mx-4">
+            <li className="flex justify-between flex-grow pb-4">
+              <span className="flex flex-col pr-4">
+                <span>Chatka / noc (jedna noc)</span>
+              </span>
+              <span className="flex-1 border-b-2 border-dotted"></span>
+              <span className="w-20 pl-4 place-self-end md:w-24">1700 Kč</span>
+            </li>
+            <li className="flex justify-between flex-grow pb-4">
+              <span className="flex flex-col pr-4">
+                <span>Chatka / noc (více nocí)</span>
+              </span>
+              <span className="flex-1 border-b-2 border-dotted"></span>
+              <span className="w-20 pl-4 place-self-end md:w-24">1500 Kč</span>
+            </li>
+            <li className="flex justify-between flex-grow pb-4">
+              <span className="flex flex-col pr-4">
+                <span>Chatka se sprchou (jedna noc)</span>
+              </span>
+              <span className="flex-1 border-b-2 border-dotted"></span>
+              <span className="w-20 pl-4 place-self-end md:w-24">2000 Kč</span>
+            </li>
+            <li className="flex justify-between flex-grow pb-4">
+              <span className="flex flex-col pr-4">
+                <span>Chatka se sprchou (více nocí)</span>
+              </span>
+              <span className="flex-1 border-b-2 border-dotted"></span>
+              <span className="w-20 pl-4 place-self-end md:w-24">1700 Kč</span>
+            </li>
+            <li className="flex justify-between flex-grow pb-4">
+              <span className="flex flex-col pr-4">
+                <span>Chatka / týden</span>
+              </span>
+              <span className="flex-1 border-b-2 border-dotted"></span>
+              <span className="w-20 pl-4 place-self-end md:w-24">9450 Kč</span>
+            </li>
+            <li className="flex justify-between flex-grow pb-4">
+              <span className="flex flex-col pr-4">
+                <span>Chatka se sprchou / týden</span>
+              </span>
+              <span className="flex-1 border-b-2 border-dotted"></span>
+              <span className="w-20 pl-4 place-self-end md:w-24">10710 Kč</span>
+            </li>
+            <li className="flex flex-col justify-between flex-grow pb-4">
+              <span> Jednorázový poplatek</span>
+              <ul className="">
+                <li className="flex justify-between flex-grow pl-4">
+                  <span>Osoba</span>
+                  <span className="flex-1 border-b-2 border-dotted"></span>
+                  <span className="w-20 pl-4 place-self-end md:w-24">
+                    100 Kč
+                  </span>
+                </li>
+                <li className="flex justify-between flex-grow pl-4">
+                  <span>Dítě</span>
+                  <span className="flex-1 border-b-2 border-dotted"></span>
+                  <span className="w-20 pl-4 place-self-end md:w-24">
+                    60 Kč
+                  </span>
+                </li>
+                <li className="flex justify-between flex-grow pl-4">
+                  <span>Pes</span>
+                  <span className="flex-1 border-b-2 border-dotted"></span>
+                  <span className="w-20 pl-4 place-self-end md:w-24">
+                    200 Kč
+                  </span>
+                </li>
+                <li className="flex justify-between flex-grow pl-4">
+                  <span>Auto</span>
+                  <span className="flex-1 border-b-2 border-dotted"></span>
+                  <span className="w-20 pl-4 place-self-end md:w-24">
+                    100 Kč
+                  </span>
+                </li>
+              </ul>
+            </li>
+            <li className="flex justify-between flex-grow pb-4">
+              <span className="flex flex-col pr-4">
+                <span>Povlečení / ks (na pobyt)</span>
+              </span>
+              <span className="flex-1 border-b-2 border-dotted"></span>
+              <span className="w-20 pl-4 place-self-end md:w-24">50 Kč</span>
+            </li>
+            <li className="flex justify-between flex-grow pb-4">
+              <span className="flex flex-col pr-4">
+                <span>Elektřina v chatce / kWh</span>
+              </span>
+              <span className="flex-1 border-b-2 border-dotted"></span>
+              <span className="w-20 pl-4 place-self-end md:w-24">7 Kč</span>
+            </li>
+          </ul>
           <h4 className="py-4 mx-8 mt-8 text-xl">
-            <spanm className="underline">Stany a karavany</spanm>
+            <span className="underline">Stany a karavany</span>
           </h4>
           <ul className="flex flex-col w-full mx-0 md:mx-4">
             <li className="flex justify-between flex-grow pb-4">
@@ -203,7 +189,7 @@ export default function AboutPage() {
             </li>
           </ul>
           <h4 className="py-4 mx-8 mt-8 text-xl">
-            <spanm className="underline">Pobyt v kempu</spanm>
+            <span className="underline">Pobyt v kempu</span>
           </h4>
           <ul className="flex flex-col w-full mx-0 md:mx-4">
             <li className="flex justify-between flex-grow pb-4">
