@@ -1,7 +1,26 @@
-import Head from "next/head";
-import Cta from "../components/cta";
-import Header from "../components/header";
-export default function AboutPage() {
+import Cta from "../../components/cta";
+import Header from "../../components/header";
+
+export const metadata = {
+  title: "Ceník",
+  description:
+    "Ceník ubytování v Autokempu Kokořín. Chatky, stany, karavany a další služby. Přijímáme hotovost i platební karty.",
+  openGraph: {
+    title: "Ceník - Autokemp Kokořín",
+    description:
+      "Ceník ubytování v Autokempu Kokořín. Chatky, stany, karavany a další služby.",
+    images: [
+      {
+        url: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1685528296/autokemp/images/ubytovani2_hwzxmu.webp",
+        width: 1200,
+        height: 630,
+        alt: "Ceník Autokemp Kokořín",
+      },
+    ],
+  },
+};
+
+export default function CenikPage() {
   const uCtaText = "ideální místo pro rodinnou dovolenou";
   const uCtaClaim =
     "s dětskými hřišti a prostornými místy pro karavany, stany a obytňáky";
@@ -9,9 +28,6 @@ export default function AboutPage() {
 
   return (
     <>
-      <Head>
-        <title>Ceník - Autokemp Kokořín</title>
-      </Head>
       <div className="pageHero">
         <Header />
         <div className="w-full mb-8 my-4 sm:mt-0 inline-block drop-shadow-md text-center text-white text-5xl sm:text-[88px] leading-snug fontHero bg-neutral-200 bg-opacity-20 backdrop-blur-sm">
@@ -232,3 +248,4 @@ export default function AboutPage() {
     </>
   );
 }
+

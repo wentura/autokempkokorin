@@ -1,9 +1,27 @@
-import autoprefixer from "autoprefixer";
-import Head from "next/head";
 import Image from "next/image";
-import Cta from "../components/cta";
-import Header from "../components/header";
-export default function AboutPage() {
+import Cta from "../../components/cta";
+import Header from "../../components/header";
+
+export const metadata = {
+  title: "Ubytování",
+  description:
+    "Ubytování v Autokempu Kokořín. 15 prostorných chat s parkovacím místem, WC, teplou vodou a topením. Pro stany, karavany a obytné vozy jsou k dispozici čtyři plochy.",
+  openGraph: {
+    title: "Ubytování - Autokemp Kokořín",
+    description:
+      "Ubytování v Autokempu Kokořín. 15 prostorných chat s parkovacím místem, WC, teplou vodou a topením.",
+    images: [
+      {
+        url: "https://res.cloudinary.com/dam7wdzvx/image/upload/c_scale,w_600/v1685528289/autokemp/images/chatka_okm1f9.webp",
+        width: 1200,
+        height: 630,
+        alt: "Chatka v Autokempu Kokořín",
+      },
+    ],
+  },
+};
+
+export default function UbytovaniPage() {
   const uCtaText = "ideální místo pro rodinnou dovolenou";
   const uCtaClaim =
     "s dětskými hřišti a prostornými místy pro karavany, stany a obytňáky";
@@ -11,9 +29,6 @@ export default function AboutPage() {
 
   return (
     <>
-      <Head>
-        <title>Ubytování - Autokemp Kokořín</title>
-      </Head>
       <div className="pageHero">
         <Header />
         <div className="w-full mb-8 my-4 sm:mt-0 inline-block drop-shadow-md text-center text-white text-5xl sm:text-[88px] leading-snug fontHero bg-neutral-200 bg-opacity-20 backdrop-blur-sm">
@@ -24,12 +39,13 @@ export default function AboutPage() {
         <div className="flex flex-col-reverse flex-wrap gap-12 mt-8 lg:flex-row">
           <div className="flex-1 min-w-[300px] hidden sm:flex sm:flex-col">
             <Image
-              src="https://res.cloudinary.com/dam7wdzvx/image/upload/c_scale,w_600/v1685528289/autokemp/images/chatka_okm1f9.webp"
-              // src="https://res.cloudinary.com/dam7wdzvx/image/upload/c_scale,w_600/v1685524441/autokemp/images/chatka_kqblfl.jpg"
-              width="600"
-              height="600"
-              alt="chatka"
+              src="https://res.cloudinary.com/dam7wdzvx/image/upload/f_auto,q_auto,c_scale,w_600/v1685528289/autokemp/images/chatka_okm1f9.webp"
+              width={600}
+              height={600}
+              alt="Chatka v Autokempu Kokořín"
               className="w-full mt-12 mb-12 img-responsive rounded-2xl drop-shadow-lg"
+              loading="lazy"
+              quality={85}
             />
             <h4 className="text-xl lg:text-2xl fontHero">
               3D pohled do chatky
@@ -37,32 +53,18 @@ export default function AboutPage() {
             <a
               href="https://www.google.com/maps/@50.4370842,14.5857547,3a,90y,187.2h,75.29t/data=!3m6!1e1!3m4!1sAF1QipM7HLf3uEnp2oBZpNs46E6xLH5WNVT9EKZ76_0I!2e10!7i11000!8i5500?hl=cs-CZ&entry=ttu"
               className="mb-48 underline underline-offset-4 decoration-neutral-400"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               <Image
-                src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1695390447/autokemp/images/chata3d_zrds3b.webp"
+                src="https://res.cloudinary.com/dam7wdzvx/image/upload/f_auto,q_auto,w_600/v1695390447/autokemp/images/chata3d_zrds3b.webp"
                 width={600}
                 height={300}
-                alt="odkaz na 3D pohled do chatky"
+                alt="Odkaz na 3D pohled do chatky na Google Street View"
                 className="w-full mb-4 img-responsive rounded-2xl drop-shadow-lg"
+                loading="lazy"
+                quality={85}
               />
-              {/* <a
-              href="https://www.google.com/maps/@50.4370842,14.5857547,3a,90y,187.2h,75.29t/data=!3m6!1e1!3m4!1sAF1QipM7HLf3uEnp2oBZpNs46E6xLH5WNVT9EKZ76_0I!2e10!7i11000!8i5500?hl=cs-CZ&entry=ttu"
-              className="mt-12 mb-24 underline underline-offset-4"
-            > */}
-              {/* <svg className="text-sm max-h-4" viewBox="0 0 48 48">
-                <path
-                  d="M36 24c-1.2 0-2 0.8-2 2v12c0 1.2-0.8 2-2 2h-22c-1.2
-0-2-0.8-2-2v-22c0-1.2 0.8-2 2-2h12c1.2 0 2-0.8 2-2s-0.8-2-2-2h-12c-3.4
-0-6 2.6-6 6v22c0 3.4 2.6 6 6 6h22c3.4 0 6-2.6
-6-6v-12c0-1.2-0.8-2-2-2z"
-                ></path>
-                <path
-                  d="M43.8 5.2c-0.2-0.4-0.6-0.8-1-1-0.2-0.2-0.6-0.2-0.8-0.2h-12c-1.2
-0-2 0.8-2 2s0.8 2 2 2h7.2l-18.6 18.6c-0.8 0.8-0.8 2 0 2.8 0.4 0.4 0.8
-0.6 1.4 0.6s1-0.2 1.4-0.6l18.6-18.6v7.2c0 1.2 0.8 2 2 2s2-0.8
-2-2v-12c0-0.2 0-0.6-0.2-0.8z"
-                ></path>
-              </svg> */}
               pro 3D pohled do chatky navštivte Google Stree View &#x1F517;
             </a>
           </div>
@@ -94,13 +96,16 @@ export default function AboutPage() {
               <a
                 href="https://www.google.com/maps/@50.4370842,14.5857547,3a,90y,187.2h,75.29t/data=!3m6!1e1!3m4!1sAF1QipM7HLf3uEnp2oBZpNs46E6xLH5WNVT9EKZ76_0I!2e10!7i11000!8i5500?hl=cs-CZ&entry=ttu"
                 className="underline underline-offset-4 decoration-neutral-400"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 <Image
                   src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1695390447/autokemp/images/chata3d_zrds3b.webp"
                   width={600}
                   height={100}
-                  alt="odkaz na 3D pohled do chatky"
+                  alt="Odkaz na 3D pohled do chatky na Google Street View"
                   className="w-full img-responsive rounded-2xl drop-shadow-lg"
+                  loading="lazy"
                 />
                 pro 3D pohled do chatky navštivte Google Stree View &#x1F517;
               </a>
@@ -159,12 +164,13 @@ export default function AboutPage() {
               . Doporučujeme ekologické cestování po dobře značených trasách.
             </p>
             <Image
-              src="https://res.cloudinary.com/dam7wdzvx/image/upload/c_scale,w_600/v1685528289/autokemp/images/chatka_okm1f9.webp"
-              // src="https://res.cloudinary.com/dam7wdzvx/image/upload/c_scale,w_600/v1685524441/autokemp/images/chatka_kqblfl.jpg"
-              width="600"
-              height="600"
-              alt="chatka"
+              src="https://res.cloudinary.com/dam7wdzvx/image/upload/f_auto,q_auto,c_scale,w_600/v1685528289/autokemp/images/chatka_okm1f9.webp"
+              width={600}
+              height={600}
+              alt="Chatka v Autokempu Kokořín"
               className="w-full mt-12 mb-12 sm:hidden img-responsive rounded-2xl drop-shadow-lg"
+              loading="lazy"
+              quality={85}
             />
           </div>
         </div>
@@ -173,3 +179,4 @@ export default function AboutPage() {
     </>
   );
 }
+

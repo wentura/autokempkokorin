@@ -1,6 +1,5 @@
 import Link from "next/link";
 export default function Cta({ ...text }) {
-  console.log(text.css);
   return (
     <section
       className={` flex ${text.css} items-center justify-center px-4 py-44 text-center text-white bg-blend-darken`}

@@ -37,11 +37,11 @@
   z-index: -1 !important;
 }
 .fontHero {
-  font-family: "bahiana";
+  font-family: var(--font-bahiana), sans-serif;
 }
 
 .ctaHeader {
-  font-family: "bahiana" !important;
+  font-family: var(--font-bahiana), sans-serif !important;
 }
 .pageHero {
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
@@ -52,3 +52,4 @@
 body {
   font-family: Helvetica, "Trebuchet MS", Verdana, sans-serif;
 }
+

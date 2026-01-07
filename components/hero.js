@@ -10,17 +10,19 @@ export default function Hero() {
         autoPlay
         loop
         muted
+        playsInline
+        preload="none"
         className="overflow-hidden min-h-screen md:min-h-[800px] max-h-[90vh] md:max-h-[800px]"
-        // poster="https://res.cloudinary.com/dam7wdzvx/image/upload/v1685524449/autokemp/images/poster_gq3dtq.jpg"
-        poster={`poster_gq3dtq.jpg`}
+        poster="https://res.cloudinary.com/dam7wdzvx/image/upload/f_auto,q_auto,w_1920/v1685524449/autokemp/images/poster_gq3dtq.jpg"
       >
         <source
           src="https://res.cloudinary.com/dsoicy8fk/video/upload/v1723525303/atc4_a0zrs3_uvk9wz_uysgfb.webm"
-          // src="https://res.cloudinary.com/dcmtpxvd3/video/upload/v1741278554/atc4_a0zrs3_uvk9wz_cfd5nl.webm"
           type="video/webm"
         />
-
-        <source src="../atc_slow.mp4" type="video/mp4" />
+        <source
+          src="https://res.cloudinary.com/dsoicy8fk/video/upload/v1723525303/atc4_a0zrs3_uvk9wz_uysgfb.mp4"
+          type="video/mp4"
+        />
       </video>
       <div className="z-1">
         <Header />

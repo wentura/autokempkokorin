@@ -1,6 +1,25 @@
-import Head from "next/head";
-import Cta from "../components/cta";
-import Header from "../components/header";
+import Cta from "../../components/cta";
+import Header from "../../components/header";
+
+export const metadata = {
+  title: "Restaurace",
+  description:
+    "Restaurace v Autokempu Kokořín. Snídaně, menu, nápojový lístek. Otevřeno denně v sezóně.",
+  openGraph: {
+    title: "Restaurace - Autokemp Kokořín",
+    description:
+      "Restaurace v Autokempu Kokořín. Snídaně, menu, nápojový lístek.",
+    images: [
+      {
+        url: "https://res.cloudinary.com/dam7wdzvx/image/upload/c_scale,w_400/v1685524446/autokemp/images/restaurace_ch7zhi.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Restaurace Autokemp Kokořín",
+      },
+    ],
+  },
+};
+
 export default function Restaurace() {
   const uCtaText = "ideální místo pro rodinnou dovolenou";
   const uCtaClaim =
@@ -9,9 +28,6 @@ export default function Restaurace() {
 
   return (
     <>
-      <Head>
-        <title>Restaurace - Autokemp Kokořín</title>
-      </Head>
       <div className="pageHero">
         <Header />
         <div className="w-full mb-8 my-4 sm:mt-0 inline-block drop-shadow-md text-center text-white text-5xl sm:text-[88px] leading-snug fontHero bg-neutral-200 bg-opacity-20 backdrop-blur-sm">
@@ -19,28 +35,6 @@ export default function Restaurace() {
         </div>
       </div>
       <div className="px-4 py-2 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
-        {/* <div className="flex flex-wrap gap-4 mt-8">
-          	<div className="flex-1 min-w-[300px] bg-neutral-300">image</div>
-          <div className="flex-1 min-w-[300px]">
-            <ul class="max-w-fit flex flex-col mx-auto">
-              <li class="inline-flex justify-center gap-x-1 py-2 px-2 text-xl md:text-4xl ctaHeader border text-gray-800 -mt-px first:rounded-t-lg first:mt-0 last:rounded-b-lg ">
-                Otvírací doba
-              </li>
-              <li class="inline-flex items-center gap-x-3.5 py-3 px-4 text-sm font-medium border text-gray-800 -mt-px first:rounded-t-lg first:mt-0 last:rounded-b-lg ">
-                duben, květen: jen víkendy dle počasí
-              </li>
-              <li class="inline-flex items-center gap-x-3.5 py-3 px-4 text-sm font-medium border text-gray-800 -mt-px first:rounded-t-lg first:mt-0 last:rounded-b-lg">
-                červen, červenec, srpen: denně 8:00 - 22:00
-              </li>
-              <li class="inline-flex items-center gap-x-3.5 py-3 px-4 text-sm font-medium border text-gray-800 -mt-px first:rounded-t-lg first:mt-0 last:rounded-b-lg">
-                září, říjen: jen víkendy dle počasí
-              </li>
-              <li class="inline-flex items-center gap-x-3.5 py-3 px-4 text-sm font-medium border text-gray-800 -mt-px first:rounded-t-lg first:mt-0 last:rounded-b-lg">
-                listopad - únor: po dohodě
-              </li>
-            </ul>
-          </div>
-        </div> */}
         <div className="max-w-4xl py-8 mx-auto my-8">
           <h3 className="py-8 text-4xl text-center ctaHeader lg:text-6xl">
             Menu
@@ -121,22 +115,6 @@ export default function Restaurace() {
               <span className="flex-1 border-b-2 border-dotted"></span>
               <span className="w-20 pl-4 place-self-end md:w-24">80 Kč</span>
             </li>
-            {/* <li className="flex justify-between flex-grow pb-4">
-              <span className="flex flex-col pr-4">
-                <span>Nakládaný hermelín</span>
-                <span className="text-xs">s chlébem</span>
-              </span>
-              <span className="flex-1 border-b-2 border-dotted"></span>
-              <span className="w-20 pl-4 place-self-end md:w-24">90 Kč</span>
-            </li>
-            <li className="flex justify-between flex-grow pb-4">
-              <span className="flex flex-col pr-4">
-                <span>Škvarková pomazánka</span>
-                <span className="text-xs">s chlebem</span>
-              </span>
-              <span className="flex-1 border-b-2 border-dotted"></span>
-              <span className="w-20 pl-4 place-self-end md:w-24">80 Kč</span>
-            </li> */}
             <li className="flex justify-between flex-grow pb-4">
               <span className="flex flex-col pr-4">
                 <span>Klobása</span>
@@ -155,7 +133,7 @@ export default function Restaurace() {
               <span className="flex-1 border-b-2 border-dotted"></span>
               <span className="w-20 pl-4 place-self-end md:w-24">210 Kč</span>
             </li>
-            <li className="flex flex-grow pb-4">
+            <li className="flex justify-between flex-grow pb-4">
               <span className="flex flex-col">
                 <span>Kuřecí stripsy</span>
                 <span className="text-xs">hranolky</span>
@@ -163,14 +141,6 @@ export default function Restaurace() {
               <span className="flex-1 border-b-2 border-dotted"></span>
               <span className="w-20 pl-4  place-self-end md:w-24">210 Kč</span>
             </li>
-            {/* <li className="flex justify-between flex-grow pb-4">
-              <span className="flex flex-col pr-4">
-                <span>Hermelín na grilu</span>
-                <span className="text-xs">zeleninový salát, nachos</span>
-              </span>
-              <span className="flex-1 border-b-2 border-dotted"></span>
-              <span className="w-20 pl-4 place-self-end md:w-24">190 Kč</span>
-            </li> */}
             <li className="flex justify-between flex-grow pb-4">
               <span className="flex flex-col pr-4">
                 <span>Davelská žebírka</span>
@@ -261,7 +231,6 @@ export default function Restaurace() {
             <li className="flex justify-between flex-grow pb-4">
               <span className="flex flex-col pr-4">
                 <span>Espresso / Lungo</span>
-                {/* <span className="text-xs">čepované plzeňské pivo, 0,5l</span> */}
               </span>
               <span className="flex-1 border-b-2 border-dotted"></span>
               <span className="w-20 pl-4 place-self-end md:w-24">55 Kč</span>
@@ -269,7 +238,6 @@ export default function Restaurace() {
             <li className="flex justify-between flex-grow pb-4">
               <span className="flex flex-col pr-4">
                 <span>Caffe Latte / Cappuccino</span>
-                {/* <span className="text-xs">čepované plzeňské pivo, 0,5l</span> */}
               </span>
               <span className="flex-1 border-b-2 border-dotted"></span>
               <span className="w-20 pl-4 place-self-end md:w-24">70 Kč</span>
@@ -285,9 +253,6 @@ export default function Restaurace() {
             <li className="flex justify-between flex-grow pb-4">
               <span className="flex flex-col pr-4">
                 <span>Horká griotka</span>
-                {/* <span className="text-xs">
-                    nealkoholické pivo, v lahvi, 0,5l
-                  </span> */}
               </span>
               <span className="flex-1 border-b-2 border-dotted"></span>
               <span className="w-20 pl-4 place-self-end md:w-24">60 Kč</span>
@@ -379,14 +344,6 @@ export default function Restaurace() {
               <span className="flex-1 border-b-2 border-dotted"></span>
               <span className="w-20 pl-4 place-self-end md:w-24">50 Kč</span>
             </li>
-            {/* <li className="flex justify-between flex-grow pb-4">
-                <span className="flex flex-col pr-4">
-                  <span>Republika</span>
-                  <span className="text-xs">0,4l</span>
-                </span>
-                <span className="flex-1 border-b-2 border-dotted"></span>
-                <span className="w-20 pl-4 place-self-end md:w-24">60 Kč</span>
-              </li> */}
             <li className="flex justify-between flex-grow pb-4">
               <span className="flex flex-col pr-4">
                 <span>Tatranský čaj 52%</span>
@@ -418,3 +375,4 @@ export default function Restaurace() {
     </>
   );
 }
+

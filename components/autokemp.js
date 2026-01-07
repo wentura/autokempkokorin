@@ -1,17 +1,8 @@
-import Head from "next/head";
 import Image from "next/image";
 
 export default function Autokemp() {
   return (
     <>
-      <Head>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Bahiana&display=swap"
-          rel="stylesheet"
-        />
-      </Head>
       <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
         {/* <div className="px-4 py-4 mb-24 mx-auto max-w-full sm:max-w-5xl border-0 border-l-4 border-gray-400">
           <h3 className=" mx-auto font-sans font-bolder ctaHeader text-2xl mb-4">
@@ -65,26 +56,32 @@ export default function Autokemp() {
             <div className="flex flex-col items-end px-3">
               <Image
                 className="object-cover mb-6 rounded shadow-lg h-28 sm:h-48 xl:h-56 w-28 sm:w-48 xl:w-56"
-                src="https://res.cloudinary.com/dam7wdzvx/image/upload/c_scale,w_400/v1685524446/autokemp/images/restaurace_ch7zhi.jpg"
-                alt=""
+                src="https://res.cloudinary.com/dam7wdzvx/image/upload/f_auto,q_auto,c_scale,w_400/v1685524446/autokemp/images/restaurace_ch7zhi.jpg"
+                alt="Restaurace v Autokempu Kokořín"
                 width={200}
                 height={200}
+                loading="lazy"
+                quality={85}
               />
               <Image
                 className="object-cover w-20 h-20 rounded shadow-lg sm:h-32 xl:h-40 sm:w-32 xl:w-40"
-                src="https://res.cloudinary.com/dam7wdzvx/image/upload/c_scale,w_300/v1685524447/autokemp/images/ohniste_yu3yfr.jpg"
-                alt=""
+                src="https://res.cloudinary.com/dam7wdzvx/image/upload/f_auto,q_auto,c_scale,w_300/v1685524447/autokemp/images/ohniste_yu3yfr.jpg"
+                alt="Ohniště v Autokempu Kokořín"
                 width={200}
                 height={200}
+                loading="lazy"
+                quality={85}
               />
             </div>
             <div className="px-3">
               <Image
                 className="object-cover w-40 h-40 rounded shadow-lg sm:h-64 xl:h-80 sm:w-64 xl:w-80"
-                src="https://res.cloudinary.com/dam7wdzvx/image/upload/c_scale,w_400/v1685528289/autokemp/images/chatky_mhulg8.webp"
-                alt=""
+                src="https://res.cloudinary.com/dam7wdzvx/image/upload/f_auto,q_auto,c_scale,w_400/v1685528289/autokemp/images/chatky_mhulg8.webp"
+                alt="Chatky v Autokempu Kokořín"
                 width={300}
                 height={300}
+                priority
+                quality={85}
               />
             </div>
           </div>

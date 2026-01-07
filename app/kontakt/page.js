@@ -1,7 +1,27 @@
 import Image from "next/image";
 import Link from "next/link";
-import Cta from "../components/cta";
-import Header from "../components/header";
+import Cta from "../../components/cta";
+import Header from "../../components/header";
+
+export const metadata = {
+  title: "Kontakt",
+  description:
+    "Kontaktní informace Autokempu Kokořín. Adresa: Kokořínský důl 60, 277 23, Kokořín. Telefon: +420 608 869 906. Email: info@autokempkokorin.cz",
+  openGraph: {
+    title: "Kontakt - Autokemp Kokořín",
+    description:
+      "Kontaktní informace Autokempu Kokořín. Adresa: Kokořínský důl 60, 277 23, Kokořín.",
+    images: [
+      {
+        url: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1685528288/autokemp/images/atc-mapa_gwzvyr.webp",
+        width: 1200,
+        height: 630,
+        alt: "Mapa Autokemp Kokořín",
+      },
+    ],
+  },
+};
+
 export default function Kontakt() {
   const uCtaText = "ideální místo pro rodinnou dovolenou";
   const uCtaClaim =
@@ -25,6 +45,7 @@ export default function Kontakt() {
             <a
               href="https://www.google.com/maps/place/ATC+Koko%C5%99%C3%ADn/@50.4368384,14.5829041,17z/data=!3m1!4b1!4m9!3m8!1s0x47095f787b1f1c89:0x1d00af105e3dc4a0!5m2!4m1!1i2!8m2!3d50.436835!4d14.585479!16s%2Fg%2F1tgcws7p"
               target="_blank"
+              rel="noopener noreferrer"
             >
               Autokemp Kokořín, Kokořínský důl 60, 277 23, Kokořín
             </a>
@@ -36,10 +57,10 @@ export default function Kontakt() {
                 className="cursor-pointer"
               >
                 <Image
-                  src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1685606549/autokemp/images/at2_ysfp92.webp"
+                  src="https://res.cloudinary.com/dam7wdzvx/image/upload/f_auto,q_auto,w_50/v1685606549/autokemp/images/at2_ysfp92.webp"
                   width={50}
                   height={50}
-                  alt=""
+                  alt="Email ikona"
                   className="mx-auto pb-4"
                 />
                 <p>info@autokempkokorin.cz</p>
@@ -48,10 +69,10 @@ export default function Kontakt() {
             <div className="flex-1 w-52 min-w-[250px] flex-col items-center">
               <Link href="tel:00420608869906" className="cursor-pointer">
                 <Image
-                  src="https://res.cloudinary.com/dam7wdzvx/image/upload/c_scale,w_60/v1685528291/autokemp/images/phone_gm04jn.webp"
+                  src="https://res.cloudinary.com/dam7wdzvx/image/upload/f_auto,q_auto,c_scale,w_60/v1685528291/autokemp/images/phone_gm04jn.webp"
                   width={50}
                   height={50}
-                  alt=""
+                  alt="Telefon ikona"
                   className="mx-auto pb-4"
                 />
                 <p>+420 608 869 906</p>
@@ -65,10 +86,10 @@ export default function Kontakt() {
                 className="cursor-pointer"
               >
                 <Image
-                  src="https://res.cloudinary.com/dam7wdzvx/image/upload/c_scale,w_60/v1685528290/autokemp/images/map_d4erp7.webp"
+                  src="https://res.cloudinary.com/dam7wdzvx/image/upload/f_auto,q_auto,c_scale,w_60/v1685528290/autokemp/images/map_d4erp7.webp"
                   width={50}
                   height={50}
-                  alt=""
+                  alt="Mapa ikona"
                   className="mx-auto pb-4"
                 />
                 <p>
@@ -80,11 +101,12 @@ export default function Kontakt() {
             </div>
           </div>
           <Image
-            src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1685528288/autokemp/images/atc-mapa_gwzvyr.webp"
+            src="https://res.cloudinary.com/dam7wdzvx/image/upload/f_auto,q_auto,w_1000/v1685528288/autokemp/images/atc-mapa_gwzvyr.webp"
             width={1000}
             height={522}
-            alt="mapy.cz, kde najdete ATC Kokořín"
+            alt="Mapa ukazující polohu Autokempu Kokořín na mapy.cz"
             className="mx-auto"
+            loading="lazy"
           />
         </div>
         <div className="p-8 w-full flex flex-wrap justify-evenly">
@@ -111,3 +133,4 @@ export default function Kontakt() {
     </>
   );
 }
+

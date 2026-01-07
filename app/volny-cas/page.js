@@ -1,8 +1,27 @@
 import Image from "next/image";
-import Link from "next/link";
-import Cta from "../components/cta";
-import Header from "../components/header";
-export default function AboutPage() {
+import Cta from "../../components/cta";
+import Header from "../../components/header";
+
+export const metadata = {
+  title: "Volný čas",
+  description:
+    "Aktivity v okolí Autokempu Kokořín. Pěší turistika, cykloturistika, koupání, lezectví, jezdectví. Navštivte kulturní památky a přírodní zajímavosti v okolí.",
+  openGraph: {
+    title: "Volný čas - Autokemp Kokořín",
+    description:
+      "Aktivity v okolí Autokempu Kokořín. Pěší turistika, cykloturistika, koupání, lezectví, jezdectví.",
+    images: [
+      {
+        url: "https://res.cloudinary.com/dam7wdzvx/image/upload/c_scale,w_800/v1685524442/autokemp/images/foto1_vprv4e.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Aktivity v Autokempu Kokořín",
+      },
+    ],
+  },
+};
+
+export default function VolnyCasPage() {
   const uCtaText = "Ubytujte se v Autokempu Kokořín";
   const uCtaClaim = "navštivte kulturní památky a přírodní zajímavosti v okolí";
   const uCtaCss = "volnycasCta-bg";
@@ -19,10 +38,12 @@ export default function AboutPage() {
         <div className="flex flex-wrap gap-4 mt-8">
           <div className="flex-1 min-w-[300px]">
             <Image
-              src="https://res.cloudinary.com/dam7wdzvx/image/upload/c_scale,w_800/v1685524442/autokemp/images/foto1_vprv4e.jpg"
+              src="https://res.cloudinary.com/dam7wdzvx/image/upload/f_auto,q_auto,c_scale,w_800/v1685524442/autokemp/images/foto1_vprv4e.jpg"
               width={800}
               height={600}
-              alt=""
+              alt="Pěší turistika a cykloturistika v Kokořínsku"
+              loading="lazy"
+              quality={85}
             />
           </div>
           <div className="flex-1 min-w-[300px]">
@@ -41,10 +62,12 @@ export default function AboutPage() {
         <div className="flex flex-wrap gap-4 mt-8 flex-row-reverse">
           <div className="flex-1 min-w-[300px]">
             <Image
-              src="https://res.cloudinary.com/dam7wdzvx/image/upload/c_scale,w_800/v1685524442/autokemp/images/foto2_v7dcka.jpg"
+              src="https://res.cloudinary.com/dam7wdzvx/image/upload/f_auto,q_auto,c_scale,w_800/v1685524442/autokemp/images/foto2_v7dcka.jpg"
               width={800}
               height={600}
-              alt=""
+              alt="Koupání v rybníku Harasov"
+              loading="lazy"
+              quality={85}
             />
           </div>
           <div className="flex-1 min-w-[300px]">
@@ -61,10 +84,12 @@ export default function AboutPage() {
         <div className="flex flex-wrap gap-4 mt-8">
           <div className="flex-1 min-w-[300px]">
             <Image
-              src="https://res.cloudinary.com/dam7wdzvx/image/upload/c_scale,w_800/v1685524444/autokemp/images/foto5_x79qsh.jpg"
+              src="https://res.cloudinary.com/dam7wdzvx/image/upload/f_auto,q_auto,c_scale,w_800/v1685524444/autokemp/images/foto5_x79qsh.jpg"
               width={800}
               height={600}
-              alt=""
+              alt="Lezectví v Kokořínsku"
+              loading="lazy"
+              quality={85}
             />
           </div>
           <div className="flex-1 min-w-[300px]">
@@ -79,33 +104,15 @@ export default function AboutPage() {
             </p>
           </div>
         </div>
-        {/* <div className="flex flex-wrap gap-4 mt-8">
-          <div className="flex-1 min-w-[300px]">
-            <Image
-              src="https://res.cloudinary.com/dam7wdzvx/image/upload/c_scale,w_800/v1685524442/autokemp/images/foto3_ukaiaw.jpg"
-              width={800}
-              height={600}
-              alt=""
-            />
-          </div>
-          <div className="flex-1 min-w-[300px]">
-            <p className="py-8 fontHero text-3xl md:text-5xl text-center">
-              Rybolov
-            </p>
-            <p className="py-2">
-              Ubytovaní hosté mají možnost rybolovu v blízkém rybníku Kačírek.
-              Bližší informace o rybářském řádu a rybaření můžete získat přímo v
-              recepci.
-            </p>
-          </div>
-        </div> */}
         <div className="flex flex-wrap gap-4 mt-8 flex-row-reverse">
           <div className="flex-1 min-w-[300px]">
             <Image
-              src="https://res.cloudinary.com/dam7wdzvx/image/upload/c_scale,w_800/v1685524443/autokemp/images/foto4_z2v9fi.jpg"
+              src="https://res.cloudinary.com/dam7wdzvx/image/upload/f_auto,q_auto,c_scale,w_800/v1685524443/autokemp/images/foto4_z2v9fi.jpg"
               width={800}
               height={600}
-              alt=""
+              alt="Jezdectví na koních v Kokořínsku"
+              loading="lazy"
+              quality={85}
             />
           </div>
           <div className="flex-1 min-w-[300px]">
@@ -124,3 +131,4 @@ export default function AboutPage() {
     </>
   );
 }
+

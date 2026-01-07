@@ -22,11 +22,13 @@ export default function Kde() {
               className="cursor-pointer"
             >
               <Image
-                src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1685606549/autokemp/images/at2_ysfp92.webp"
+                src="https://res.cloudinary.com/dam7wdzvx/image/upload/f_auto,q_auto,w_50/v1685606549/autokemp/images/at2_ysfp92.webp"
                 width={50}
                 height={50}
-                alt=""
+                alt="Email ikona"
                 className="mx-auto pb-4"
+                loading="lazy"
+                quality={85}
               />
               <p>info@autokempkokorin.cz</p>
             </Link>
@@ -34,11 +36,13 @@ export default function Kde() {
           <div className="flex-1 w-52 min-w-[250px] flex-col items-center">
             <Link href="tel:00420608869906" className="cursor-pointer">
               <Image
-                src="https://res.cloudinary.com/dam7wdzvx/image/upload/c_scale,w_60/v1685528291/autokemp/images/phone_gm04jn.webp"
+                src="https://res.cloudinary.com/dam7wdzvx/image/upload/f_auto,q_auto,c_scale,w_60/v1685528291/autokemp/images/phone_gm04jn.webp"
                 width={50}
                 height={50}
-                alt=""
+                alt="Telefon ikona"
                 className="mx-auto pb-4"
+                loading="lazy"
+                quality={85}
               />
               <p>+420 608 869 906</p>
             </Link>
@@ -51,11 +55,13 @@ export default function Kde() {
               className="cursor-pointer"
             >
               <Image
-                src="https://res.cloudinary.com/dam7wdzvx/image/upload/c_scale,w_60/v1685528290/autokemp/images/map_d4erp7.webp"
+                src="https://res.cloudinary.com/dam7wdzvx/image/upload/f_auto,q_auto,c_scale,w_60/v1685528290/autokemp/images/map_d4erp7.webp"
                 width={50}
                 height={50}
-                alt=""
+                alt="Mapa ikona"
                 className="mx-auto pb-4"
+                loading="lazy"
+                quality={85}
               />
               <p>
                 50.4381561N
@@ -66,11 +72,13 @@ export default function Kde() {
           </div>
         </div>
         <Image
-          src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1685528288/autokemp/images/atc-mapa_gwzvyr.webp"
+          src="https://res.cloudinary.com/dam7wdzvx/image/upload/f_auto,q_auto,w_1000/v1685528288/autokemp/images/atc-mapa_gwzvyr.webp"
           width={1000}
           height={522}
-          alt="mapy.cz, kde najdete ATC Kokořín"
+          alt="Mapa ukazující polohu Autokempu Kokořín na mapy.cz"
           className="mx-auto"
+          loading="lazy"
+          quality={85}
         />
       </div>
     </div>

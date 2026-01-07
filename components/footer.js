@@ -72,10 +72,11 @@ export default function Footer() {
         </a>
       </div>
       <img
-        referrerpolicy="no-referrer-when-downgrade"
+        referrerPolicy="no-referrer-when-downgrade"
         src="http://matomo.zbyneksvoboda.cz/matomo.php?idsite=4&amp;rec=1"
-        styleHtml="border:0"
+        style={{ border: 0 }}
         alt=""
+        loading="lazy"
       />
     </footer>
   );
