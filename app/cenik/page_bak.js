@@ -40,7 +40,7 @@ export default function CenikPage() {
             Autokemp Kokořín - ceník ubytování
           </h3>
           <p className="pb-4 mx-8 text-sm text-gray-700 ">
-            Přijímáme hotovost i platební karty
+          13x standard chatka, 2x komfort chatka (s vlastní sprchou)
           </p>
           <h4 className="py-4 mx-8 text-xl">
             <span className="underline">Chatky</span>&nbsp;&nbsp;&nbsp;
