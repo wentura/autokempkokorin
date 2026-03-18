@@ -26,6 +26,13 @@
   background-position: center;
   background-size: cover;
 }
+.ebikeCta-bg {
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)),
+    url("/ebike.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
 #background-video {
   overflow: hidden !important;
   object-fit: cover;

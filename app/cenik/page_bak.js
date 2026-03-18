@@ -101,6 +101,7 @@ export default function CenikPage() {
                 <li className="flex justify-between flex-grow pl-4">
                   <span>Dítě</span>
                   <span className="flex-1 border-b-2 border-dotted"></span>
+                  
                   <span className="w-20 pl-4 place-self-end md:w-24">
                     60 Kč
                   </span>

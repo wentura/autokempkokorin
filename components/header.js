@@ -59,6 +59,15 @@ export default function Header() {
           <li className="flex">
             <Link
               rel="noopener noreferrer"
+              href="/pujcovna-e-bike"
+              className="flex items-center px-4 -mb-1 transition duration-300 ease-in-out hover:underline underline-offset-4"
+            >
+              půjčovna e-bike
+            </Link>
+          </li>
+          <li className="flex">
+            <Link
+              rel="noopener noreferrer"
               href="/kontakt"
               className="flex items-center px-4 -mb-1 transition duration-300 ease-in-out hover:underline underline-offset-4"
             >
@@ -138,6 +147,15 @@ export default function Header() {
                 className="flex items-center px-4 -mb-1 transition duration-300 ease-in-out hover:underline underline-offset-4"
               >
                 volný čas
+              </Link>
+            </li>
+            <li className="flex">
+              <Link
+                rel="noopener noreferrer"
+                href="/pujcovna-e-bike"
+                className="flex items-center px-4 -mb-1 transition duration-300 ease-in-out hover:underline underline-offset-4"
+              >
+                půjčovna e-bike
               </Link>
             </li>
             <li className="flex">

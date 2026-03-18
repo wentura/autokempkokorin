@@ -27,6 +27,11 @@ export default function Footer() {
             </Link>
           </li>
           <li>
+            <Link href="/pujcovna-e-bike" className="">
+              půjčovna e-bike
+            </Link>
+          </li>
+          <li>
             <Link href="/kontakt" className="">
               kontakt
             </Link>
@@ -61,7 +66,7 @@ export default function Footer() {
       </div>
       <div className="w-full py-12 text-center">
         <span className="text-3xl fontHero">Autokemp Kokořín</span>
-        &nbsp;&nbsp; &reg; &nbsp;&nbsp;2025
+        &nbsp;&nbsp; &reg; &nbsp;&nbsp;{new Date().getFullYear()}
         <br />
         <a
           href="https://www.zbyneksvoboda.cz"
