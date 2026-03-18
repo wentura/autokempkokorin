@@ -37,7 +37,7 @@ export default function PujcovnaEBikePage() {
               width={600}
               height={600}
               alt="Elektrokola v Autokempu Kokořín"
-              className="w-full mt-12 mb-12 img-responsive rounded-2xl"
+              className="w-full mt-12 mb-12 img-responsive"
               loading="lazy"
               quality={85}
             />
@@ -95,7 +95,7 @@ export default function PujcovnaEBikePage() {
               width={600}
               height={600}
               alt="Elektrokola v Autokempu Kokořín"
-              className="w-full mt-12 mb-12 sm:hidden img-responsive rounded-2xl drop-shadow-lg"
+              className="w-full mt-12 mb-12 sm:hidden img-responsive"
               loading="lazy"
               quality={85}
             />
