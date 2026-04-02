@@ -1,4 +1,16 @@
 export const cenik = {
+
+  sezona: {
+    termin: "1.4.2026 - 31.10.2026",
+    chatky: {
+      "chatka standard / noc (jedna noc)": 1900,
+      "chatka standard / noc (více nocí)": 1700,
+      "chatka komfort (jedna noc)": 2500,
+      "chatka komfort (více nocí)": 2100,
+      "chatka standard / týden": 10900,
+      "chatka komfort / týden": 12900,
+    },
+  },
   mimo_sezonu: {
     termin: "1.1.2026 - 31.3.2026 a 1.11.2026 - 31.12.2026",
     chatky: {
@@ -13,17 +25,6 @@ export const cenik = {
       "povlečení / ks (na pobyt)": 50,
       "elektřina v chatce / kWh": 7,
       "pes na chatce/pobyt": 250,
-    },
-  },
-  sezona: {
-    termin: "1.4.2026 - 31.10.2026",
-    chatky: {
-      "chatka standard / noc (jedna noc)": 1900,
-      "chatka standard / noc (více nocí)": 1700,
-      "chatka komfort (jedna noc)": 2500,
-      "chatka komfort (více nocí)": 2100,
-      "chatka standard / týden": 10900,
-      "chatka komfort / týden": 12900,
     },
   },
   jednorazove_poplatky_chatky: {
