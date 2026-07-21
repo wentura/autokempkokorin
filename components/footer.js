@@ -54,7 +54,16 @@ export default function Footer() {
               >
                 info@autokempkokorin.cz{" "}
               </Link>
-            </li>
+            </li><li>
+            <Link href="https://www.instagram.com/autokemp_kokorin/" className="justify-center items-center flex" target="_blank">
+              <Image src="/i.svg" alt="instagram" width={24} height={24} />
+            </Link>
+          </li>
+          <li>
+            <Link href="https://www.facebook.com/autokempkokorin/" className="justify-center items-center flex" target="_blank">
+              <Image src="/f.svg" alt="facebook" width={24} height={24} />
+            </Link>
+          </li>
           </ul>
           <ul className="self-center py-2 space-y-4 text-center sm:flex sm:space-y-0 sm:justify-around sm:space-x-4 lg:flex-1 lg:justify-start">
             <li>Kokořínský důl 60, 277 23, Kokořín</li>
