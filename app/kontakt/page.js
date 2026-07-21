@@ -105,7 +105,7 @@ export default function Kontakt() {
             width={1000}
             height={522}
             alt="Mapa ukazující polohu Autokempu Kokořín na mapy.cz"
-            className="mx-auto"
+            className="mx-auto h-auto w-auto"
             loading="lazy"
           />
         </div>
